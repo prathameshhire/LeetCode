@@ -9,8 +9,8 @@ private:
         }
         float a=v[k];
         float b=v[j];
-        float i = ((a+b)/2);
-        return i; 
+        //float i = ((a+b)/2);
+        return (a+b)/2; 
     }
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
