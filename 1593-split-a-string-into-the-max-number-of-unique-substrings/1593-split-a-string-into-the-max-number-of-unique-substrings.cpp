@@ -1,35 +1,30 @@
 class Solution {
 public:
-    int maxUniqueSplit(string s) {
-        uint32_t maxi = 1;
-        int32_t N = s.size();
-        for(uint32_t fences = 0; fences < (1<<N-1); ++fences)
-        {
-            if(__builtin_popcount(fences) < maxi)
-                continue;
-            
-            std::unordered_set<std::string> S;
-            std::string curr{s[0]};
-            bool unique = true;
-            for(int32_t bit = 0; bit < N-1; ++bit)
-            {
-                if(fences>>bit&1)
-                {
-                    if(!S.insert(curr).second)
-                    {
-                        unique = false;
-                        break;
-                    }
-                    
-                    curr.clear();
-                }
-                curr.push_back(s[bit+1]);
-            }
-            if(!S.insert(curr).second)
-                continue;
-            if(unique)
-                maxi = std::max(maxi,(uint32_t)S.size());
+    void solve (string s, unordered_set<string> &st, int i, int &maxCount, int currCount) {
+        if (currCount + (s.length()-i) <= maxCount) {
+            return;
         }
-        return maxi;
+        if (i>=s.length()) {
+            maxCount = max(maxCount, currCount); 
+            return;
+        }
+        for (int j=i; j<s.length(); j++) {
+            string sub = s.substr(i,j-i+1);
+            if (st.find(sub) == st.end()) {
+                st.insert(sub);
+                solve(s, st, j+1, maxCount, currCount+1);
+                st.erase(sub);
+            }
+
+        }
+    }
+
+    int maxUniqueSplit(string s) {
+        unordered_set <string> st;
+        int maxCount = 0;
+        int currCount = 0;
+        int i = 0;
+        solve (s,st,i,maxCount,currCount);
+        return maxCount;
     }
 };
