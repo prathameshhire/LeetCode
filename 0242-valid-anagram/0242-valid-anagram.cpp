@@ -2,12 +2,14 @@ class Solution {
 public:
     bool isAnagram(string s, string t) {
         if (s.length() != t.length()) return false;
-        unordered_map<char, int> scount;
-        unordered_map<char, int> tcount;
+        vector<int> count(26,0);
         for (int i=0; i<s.length(); i++) {
-            scount[s[i]]++;
-            tcount[t[i]]++;
+            count[s[i]-'a']++;
+            count[t[i]-'a']--;
         }
-        return scount == tcount;
+        for (auto it : count) {
+            if (it!=0) return false;
+        }
+        return true;
     }
 };
