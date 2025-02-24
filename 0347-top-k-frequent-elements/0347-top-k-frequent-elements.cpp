@@ -1,18 +1,22 @@
 class Solution {
 public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
-        unordered_map <int, int> mp;
-        for (int num:nums) {
-            mp[num]++;
+        vector <vector<int>> freq (nums.size()+1);
+        unordered_map <int,int> mp;
+        for (auto n: nums) {
+            mp[n]++;
         }
-        vector <pair<int,int>> arr;
-        for (auto p:mp) {
-            arr.push_back({p.second, p.first});
+        for (auto pair: mp) {
+            freq[pair.second].push_back(pair.first);
         }
-        sort(arr.rbegin(), arr.rend());
         vector<int> res;
-        for (int i=0; i<k; i++) {
-            res.push_back(arr[i].second);
+        for (int i = freq.size()-1; i>0; i--) {
+            for (int n:freq[i]) {
+                res.push_back(n);
+                if (res.size() == k) {
+                    return res;
+                }
+            }
         }
         return res;
     }
