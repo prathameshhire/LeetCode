@@ -32,7 +32,7 @@ private:
         }
 
         for (int i = start; i<nums.size()-k+1; i++) {
-            if (i>start && nums[i]== nums[i-1]) continue;
+            while (i > start && nums[i] == nums[i-1] && i< nums.size()-k+1) i++;
             quad.push_back(nums[i]);
             kSum(nums, k-1, i+1, target - nums[i]);
             quad.pop_back();
