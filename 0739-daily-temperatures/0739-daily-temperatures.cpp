@@ -5,7 +5,8 @@ public:
         stack<pair<int,int>> st;
         for (int i = 0; i<temperatures.size(); i++) {
             while (!st.empty() && temperatures[i]>st.top().second) {
-                ans[st.top().first] = i-st.top().first;
+                int index = st.top().first;
+                ans[index] = i-index;
                 st.pop();
             }
             st.push({i,temperatures[i]});
