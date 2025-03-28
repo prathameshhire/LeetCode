@@ -12,13 +12,14 @@ public:
                     stack.pop_back();
                 }
                 stack.pop_back();
+
                 string k = "";
                 while (!stack.empty() && isdigit(stack.back()[0])) {
                     k = stack.back() + k;
                     stack.pop_back();
                 }
-                int repeatCount = stoi(k);
 
+                int repeatCount = stoi(k);
                 string repeated = "";
                 for (int i = 0; i<repeatCount; i++) {
                     repeated += substr;
@@ -27,7 +28,7 @@ public:
             }
         }
         string res = "";
-        for (const string& part : stack) {
+        for (string &part : stack) {
             res += part;
         }
         return res;
