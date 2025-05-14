@@ -1,10 +1,10 @@
 class Solution {
 public:
     int subsetXORSum(vector<int>& nums) {
-        return dfs(nums,0,0);
+        return dfs(0,nums,0);
     }
-    int dfs(vector<int> &nums, int i, int total) {
+    int dfs (int i, vector<int> &nums, int total) {
         if (i == nums.size()) return total;
-        return dfs(nums, i+1, total ^ nums[i]) + dfs(nums, i+1, total);
+        return dfs(i+1, nums, total ^ nums[i]) + dfs(i+1, nums, total);
     }
 };
