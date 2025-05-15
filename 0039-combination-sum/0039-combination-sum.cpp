@@ -1,24 +1,22 @@
 class Solution {
-private:
-    void rec(int index, int target, vector<int> &arr, vector<vector<int>> &ans, vector<int> &ds) {
-        if (index==arr.size()) {
-            if (target == 0) {
-                ans.push_back(ds);
-            }
-            return;
-        }
-        if (arr[index]<=target) {
-            ds.push_back(arr[index]);
-            rec(index,target-arr[index], arr, ans, ds);
-            ds.pop_back();
-        }
-        rec(index+1,target, arr, ans, ds);
-    }
 public:
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-        vector<vector<int>> ans;
-        vector<int> ds;
-        rec(0, target, candidates, ans, ds);
-        return ans;
+        vector<vector<int>> res;
+        vector<int> subset;
+        recursion(candidates, target, 0, subset, res, 0);
+        return res; 
+    }
+    void recursion(const vector<int> &candidates, int target, int total, vector<int> &subset, vector<vector<int>> &res, int i) {
+        if (total == target) {
+            res.push_back(subset);
+            return;
+        }
+        if (total > target || i==candidates.size()) {
+            return;
+        }
+        subset.push_back(candidates[i]);
+        recursion(candidates, target, total+candidates[i], subset, res, i);
+        subset.pop_back();
+        recursion(candidates, target, total, subset, res, i+1);
     }
 };
