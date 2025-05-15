@@ -1,26 +1,20 @@
 class Solution {
-private: 
-    void rec (int index, int k, vector<vector<int>> &ans, vector<int> &ds, vector<int>&arr) {
-        if (ds.size()==k) {
-            ans.push_back(ds);
-            return;
-        }
-
-        for (int i=index; i<arr.size(); i++ ) {
-            ds.push_back(arr[i]);
-            rec(i+1,k,ans,ds,arr);
-            ds.pop_back();
-        }
-    }
 public:
     vector<vector<int>> combine(int n, int k) {
-        vector<vector<int>> ans;
-        vector<int> ds;
-        vector<int> arr;
-        for (int i=1; i<=n; i++) {
-            arr.push_back(i);
+        vector<vector<int>> res;
+        vector<int> subset;
+        recursion(1, n, res, subset, k);
+        return res;
+    }
+    void recursion(int i, int n, vector<vector<int>> &res, vector<int> &subset, int k) {
+        if (subset.size() == k) {
+            res.push_back(subset);
+            return;
         }
-        rec(0,k,ans,ds,arr);
-        return ans;
+        for (int j = i; j<=n; j++) {
+            subset.push_back(j);
+            recursion(j+1, n, res, subset, k);
+            subset.pop_back();
+        }
     }
 };
