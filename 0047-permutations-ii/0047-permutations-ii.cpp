@@ -1,29 +1,26 @@
 class Solution {
-    set<vector<int>> res;
 public:
     vector<vector<int>> permuteUnique(vector<int>& nums) {
-        vector<int> perm;
-        backtrack(nums, perm);
-        return vector<vector<int>>(res.begin(), res.end());
+        vector<vector<int>> res;
+        vector<int> subset;
+        unordered_map <int, int> mp;
+        for (int n:nums) mp[n]++;
+        rec(nums, res, subset, mp);
+        return res;
     }
-
-private:
-    void backtrack(vector<int>& nums, vector<int>& perm) {
-        if (perm.size() == nums.size()) {
-            res.insert(perm);
+    void rec(const vector<int> &nums, vector<vector<int>> &res, vector<int> &subset, unordered_map<int, int> &mp) {
+        if (subset.size() == nums.size()) {
+            res.push_back(subset);
             return;
         }
-
-        for (int i = 0; i < nums.size(); ++i) {
-            if (nums[i] != INT_MIN) {
-                int temp = nums[i];
-                perm.push_back(temp);
-                nums[i] = INT_MIN;
-                backtrack(nums, perm);
-                nums[i] = temp;
-                perm.pop_back();
+        for (auto s: mp)  {// try pair <int,int> s;
+            if (s.second > 0) {
+                subset.push_back(s.first);
+                mp[s.first] -= 1;
+                rec(nums, res, subset, mp);
+                mp[s.first] += 1;
+                subset.pop_back();
             }
         }
-
     }
 };
