@@ -8,7 +8,7 @@ public:
         return res;
     }
 
-    void rec(vector<string> &res, string &s, unordered_map<char, string> &mp, string &digits, int i) {
+    void rec(vector<string> &res, string s, unordered_map<char, string> &mp, string &digits, int i) {
         if (digits.length() == s.length()) {
             res.push_back(s);
         }
