@@ -1,32 +1,23 @@
 class Solution {
 public:
     bool makesquare(vector<int>& matchsticks) {
-        int totalLength = accumulate(matchsticks.begin(), matchsticks.end(), 0);
-        if (totalLength % 4 != 0) return false;
-
-        int length = totalLength / 4;
-        vector<int> sides(4, 0);
+        int sum = accumulate(matchsticks.begin(), matchsticks.end(), 0);
+        vector<int> sides(4,0);
+        if (sum%4 != 0) return false;
+        int length = sum/4;
         sort(matchsticks.rbegin(), matchsticks.rend());
-
-        return dfs(matchsticks, sides, 0, length);
+        return rec(matchsticks, sides, length, 0);
     }
 
-private:
-    bool dfs(vector<int>& matchsticks, vector<int>& sides, int index, int length) {
-        if (index == matchsticks.size()) {
-            return true;
-        }
-
-        for (int i = 0; i < 4; i++) {
-            if (sides[i] + matchsticks[index] <= length) {
-                sides[i] += matchsticks[index];
-                if (dfs(matchsticks, sides, index + 1, length)) return true;
-                sides[i] -= matchsticks[index];
+    bool rec(const vector<int> &matchsticks, vector<int> &sides, int length, int index) {
+        if (index == matchsticks.size()) return true;
+        for (int j = 0; j<4; j++) {
+            if (sides[j] + matchsticks[index] <= length) {
+                sides[j] += matchsticks[index];
+                if (rec(matchsticks, sides, length, index+1)) return true;
+                sides[j] -= matchsticks[index];
             }
-
-            if (sides[i] == 0) break;
         }
-
         return false;
     }
 };
