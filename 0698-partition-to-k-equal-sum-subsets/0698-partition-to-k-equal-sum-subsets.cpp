@@ -16,7 +16,7 @@ public:
             used[i] = 1;
             if (rec(nums, used, target, i+1, k, subsetSum + nums[i])) return true;
             used[i] = 0;
-            if (subsetSum == 0) return false;
+            // if (subsetSum == 0) return false;
         }
         return false;
     }
