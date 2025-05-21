@@ -11,7 +11,7 @@ public:
     bool rec(const vector<int> &nums, vector<int> &used, const int &target, int index, int k, int subsetSum) {
         if (k == 0) return true;
         if (subsetSum == target) return rec(nums, used, target, 0, k-1, 0);
-        for (int i = 0; i<nums.size(); i++) {
+        for (int i = index; i<nums.size(); i++) {
             if (used[i] || subsetSum + nums[i] > target) continue;
             used[i] = 1;
             if (rec(nums, used, target, i+1, k, subsetSum + nums[i])) return true;
