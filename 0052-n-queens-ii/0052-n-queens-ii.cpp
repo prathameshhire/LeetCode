@@ -7,7 +7,7 @@ public:
         return ans;
     }
 
-    void rec(int col, int &n, int &ans, vector<int> rows, vector<int> &upperD, vector<int> &lowerD) { 
+    void rec(int col, int &n, int &ans, vector<int> rows, vector<int> upperD, vector<int> lowerD) { 
         if (col == n) {
             ans++;
             return;
