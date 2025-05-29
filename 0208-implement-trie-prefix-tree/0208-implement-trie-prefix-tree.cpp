@@ -25,7 +25,7 @@ public:
         root = new TrieNode();
     }
     
-    void insertUtil(TrieNode* root, string word) {
+    void insertUtil(TrieNode* &root, string word) {
         if (word.length() == 0) {
             root->isTerminal = true;
             return;
@@ -48,7 +48,7 @@ public:
         insertUtil(root, word);
     }
     
-    bool searchUtil(TrieNode* root, string word) {
+    bool searchUtil(TrieNode* &root, string word) {
         if (word.length() == 0) return root->isTerminal;
 
         TrieNode* child;
