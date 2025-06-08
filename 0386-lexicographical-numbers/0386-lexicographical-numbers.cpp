@@ -4,6 +4,7 @@ public:
         if (curr>n) return;
         ans.push_back(curr);
         for (int i = 0; i<=9; i++) {
+            if (curr*10+i > n) return;
             dfs(curr*10+i, n, ans);
         }
     }
