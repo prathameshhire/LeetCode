@@ -1,7 +1,7 @@
 class Solution {
 public:
     int maxDifference(string s) {
-        if (s.length() == 0) return 0;
+        // if (s.length() == 0) return 0;
         vector<int> mp (26,0);
         for (char c:s) {
             mp[c-'a']++;
