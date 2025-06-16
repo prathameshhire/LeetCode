@@ -1,30 +1,27 @@
 class Solution {
 public:
     int maxDiff(int num) {
-        auto change = [&](int x, int y) {
-            string num_s = to_string(num);
-            for (char& digit : num_s) {
-                if (digit - '0' == x) {
-                    digit = '0' + y;
+        string str1 = to_string(num);
+        string str2 = str1;
+
+        int index = str1.find_first_not_of('9');
+        if (index != string::npos) {
+            char ch = str1[index];
+            replace(str1.begin(), str1.end(), ch, '9');
+        }
+        for (int i = 0; i<str2.length(); i++) {
+            char ch = str2[i];
+            if (i == 0) {
+                if (ch != '1') {
+                    replace(str2.begin(), str2.end(), ch, '1');
+                    break;
                 }
             }
-            return num_s;
-        };
-
-        int min_num = num;
-        int max_num = num;
-        for (int x = 0; x < 10; ++x) {
-            for (int y = 0; y < 10; ++y) {
-                string res = change(x, y);
-                // Check if there are leading zeros
-                if (res[0] != '0') {
-                    int res_i = stoi(res);
-                    min_num = min(min_num, res_i);
-                    max_num = max(max_num, res_i);
-                }
+            else if(ch != '0' && ch != str2[0]) {
+                replace(str2.begin(), str2.end(), ch, '0');
+                break;
             }
         }
-
-        return max_num - min_num;
+        return stoi(str1) - stoi(str2);
     }
 };
