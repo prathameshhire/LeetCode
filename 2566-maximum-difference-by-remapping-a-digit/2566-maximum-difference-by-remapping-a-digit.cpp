@@ -1,15 +1,15 @@
 class Solution {
 public:
     int minMaxDifference(int num) {
-        string s = to_string(num);
-        string t = s;
-        size_t pos = s.find_first_not_of('9');
-        if (pos != string::npos) {
-            char a = s[pos];
-            replace(s.begin(), s.end(), a, '9');
+        string str1 = to_string(num);
+        string str2 = str1;
+        int index = str1.find_first_not_of('9');
+        if (index != string::npos) {
+            char ch = str1[index];
+            replace(str1.begin(), str1.end(), ch, '9');
         }
-        char b = t[0];
-        replace(t.begin(), t.end(), b, '0');
-        return stoi(s) - stoi(t);
+        char ch = str2[0];
+        replace(str2.begin(), str2.end(), ch, '0');
+        return stoi(str1) - stoi(str2);
     }
 };
