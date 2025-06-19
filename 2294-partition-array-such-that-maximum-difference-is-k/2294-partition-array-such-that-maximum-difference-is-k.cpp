@@ -2,7 +2,7 @@ class Solution {
 public:
     int partitionArray(vector<int>& nums, int k) {
         sort(nums.begin(), nums.end());
-        int count = 0;
+        int count = 1;
         int min = nums[0];
         for(int i = 0; i<nums.size(); i++) {
             if (nums[i] - min > k) {
@@ -10,6 +10,6 @@ public:
                 min = nums[i];               
             }
         }
-        return count+1;
+        return count;
     }
 };
