@@ -19,7 +19,7 @@ public:
             right_sum += max((ll)0, n-index-1 - (mid_val-1)); 
             ll total_sum = left_sum + right_sum + mid_val;
             if (total_sum <= maxSum) {
-                result = max((ll)result, mid_val);
+                result = mid_val;
                 left = mid_val+1;
             } 
             else {
