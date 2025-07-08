@@ -1,16 +1,20 @@
 class Solution {
 public:
     vector<string> divideString(string s, int k, char fill) {
-        vector<string> res;  // grouped string
-        int n = s.size();
-        int curr = 0;  // starting index of each group
-        // split string
-        while (curr < n) {
-            res.push_back(s.substr(curr, k));
-            curr += k;
+        int n = s.length();
+        vector<string> result;
+        int i = 0;
+        while (i<n) {
+            int j = (i+k-1 < n) ? i+k-1 : n-1;
+            string sub = s.substr(i,j-i+1);
+            if (j-i+1 < k) {
+                int remaining = k - (j-i+1);
+                string add = string(remaining, fill);
+                sub.append(add);
+            }
+            result.push_back(sub);
+            i += k;
         }
-        // try to fill in the last group
-        res.back() += string(k - res.back().length(), fill);
-        return res;
+        return result;
     }
 };
