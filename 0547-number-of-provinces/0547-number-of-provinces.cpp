@@ -18,7 +18,7 @@ public:
 
         for (int i = 0; i<n; i++) {
             if (!visited[i]) {
-                bfs (mp, 0, visited);
+                bfs (mp, i, visited);
                 count++;
             }
         }
