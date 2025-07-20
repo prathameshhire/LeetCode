@@ -1,37 +1,31 @@
 class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        unordered_map<int,vector<int>> mp;
-        vector<int> indegree(numCourses, 0);
-        for (auto course : prerequisites) {
-            int a = course[0];
-            int b = course[1];
+        unordered_map<int, vector<int>> mp;
+        vector<bool> visited(numCourses, 0);
+        vector<bool> inRec(numCourses, 0);
+        for (auto vec: prerequisites) {
+            int a = vec[0];
+            int b = vec[1];
             mp[b].push_back(a);
-            indegree[a]++;
         }
-        return topological(mp, numCourses, indegree);
+        for (int i = 0; i<numCourses; i++) {
+            if (!visited[i] && dfs(mp, i, visited, inRec)) {
+                return false;
+            }
+        }
+        return true;
     }
-    bool topological(unordered_map<int,vector<int>> &mp, int n, vector<int> &indegree) {
-        queue<int> q;
-        int count = 0;
-        for (int i = 0; i<n; i++) {
-            if (!indegree[i]){
-                q.push(i);
-                count++;
-            }
+    bool dfs(unordered_map<int, vector<int>> &mp, int u, vector<bool> &visited, vector<bool> &inRec) {
+        visited[u] = true;
+        inRec[u] = true;
+
+        for (int &v : mp[u]) {
+            if (!visited[v] && dfs(mp, v, visited, inRec)) return true;
+            if (inRec[v]) return true;
         }
-        while (!q.empty()) {
-            int u = q.front();
-            q.pop();
-            for (int &v: mp[u]) {
-                indegree[v]--;
-                if (!indegree[v]) {
-                    q.push(v);
-                    count++;
-                }
-            }
-        }
-        if (count == n) return true;
+
+        inRec[u] = false;
         return false;
     }
 };
