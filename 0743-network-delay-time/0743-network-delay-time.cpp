@@ -21,7 +21,7 @@ public:
                 int d = vec.second;
                 if (dist + d < result[adjNode]) {
                     result[adjNode] = dist+d;
-                    pq.push({adjNode, d});
+                    pq.push({dist+d, adjNode});
                 }
             }
         }
