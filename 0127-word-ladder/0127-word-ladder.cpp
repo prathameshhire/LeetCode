@@ -1,32 +1,42 @@
 class Solution {
 public:
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
-        unordered_set<string> words(wordList.begin(), wordList.end());
-        if (words.find(endWord) == words.end() || beginWord == endWord) return 0;
-        int res = 0;
+        if (endWord.empty() || find(wordList.begin(), wordList.end(), endWord) == wordList.end()) {
+            return 0;
+        }
+
+        unordered_map<string, vector<string>> nei;
+        wordList.push_back(beginWord);
+        for (const string& word : wordList) {
+            for (int j = 0; j < word.size(); ++j) {
+                string pattern = word.substr(0, j) + "*" + word.substr(j + 1);
+                nei[pattern].push_back(word);
+            }
+        }
+
+        unordered_set<string> visit{beginWord};
         queue<string> q;
         q.push(beginWord);
-
+        int res = 1;
         while (!q.empty()) {
-            res++;
-            int len = q.size();
-            for (int i = 0; i < len; i++) {
-                string node = q.front();
+            int size = q.size();
+            for (int i = 0; i < size; ++i) {
+                string word = q.front();
                 q.pop();
-                if (node == endWord) return res;
-                for (int j = 0; j < node.length(); j++) {
-                    char original = node[j];
-                    for (char c = 'a'; c <= 'z'; c++) {
-                        if (c == original) continue;
-                        node[j] = c;
-                        if (words.find(node) != words.end()) {
-                            q.push(node);
-                            words.erase(node);
+                if (word == endWord) {
+                    return res;
+                }
+                for (int j = 0; j < word.size(); ++j) {
+                    string pattern = word.substr(0, j) + "*" + word.substr(j + 1);
+                    for (const string& neiWord : nei[pattern]) {
+                        if (visit.find(neiWord) == visit.end()) {
+                            visit.insert(neiWord);
+                            q.push(neiWord);
                         }
                     }
-                    node[j] = original;
                 }
             }
+            ++res;
         }
         return 0;
     }
