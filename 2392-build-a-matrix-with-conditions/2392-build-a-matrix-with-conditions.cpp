@@ -1,44 +1,40 @@
 class Solution {
 public:
-    void dfs(int u, vector<int>& visited, unordered_map<int, vector<int>> &adj, stack<int>& st, bool& cycle) {
-        visited[u] = 1;
-        for (int& v : adj[u]) {
-            if (visited[v] == 0) {
-                dfs(v, visited, adj, st, cycle);
-            }
-            else if(visited[v] == 1) {
-                cycle = true;
-                return;
-            }
-        }
-
-        visited[u] = 2;
-        st.push(u);
-    }
     vector<int> top(vector<vector<int>>& edges, int n) {
         unordered_map<int, vector<int>> adj;
+        vector<int> indegree(n+1,0);
         for (auto& edge : edges) {
             int u = edge[0];
             int v = edge[1];
             adj[u].push_back(v);
+            indegree[v]++;
         }
-        vector<int> visited(n+1, 0);
-        stack<int> st;
-        vector<int> order;
-        bool cycle = false; 
+        queue<int> q;
+        int count = 0;
         for (int i = 1; i<=n; i++) {
-            if (!visited[i]) {
-                dfs(i, visited, adj, st, cycle);
-                if (cycle) return {};
+            if (!indegree[i]) {
+                q.push(i);
+                count++;
             }
         }
+        vector<int> topoOrder;
+        while (!q.empty()) {
+            int u =q.front();
+            q.pop();
+            topoOrder.push_back(u);
 
-        while(!st.empty()) {
-            order.push_back(st.top());
-            st.pop();
+            for (int &v: adj[u]) {
+                indegree[v]--;
+                if (!indegree[v]) {
+                    q.push(v);
+                    count++;
+                }
+            }
         }
-
-        return order;
+        if (count!=n) {
+            return {};
+        }
+        return topoOrder;
     }
     vector<vector<int>> buildMatrix(int k, vector<vector<int>>& rowConditions, vector<vector<int>>& colConditions) {
         vector<int> row = top(rowConditions, k);
