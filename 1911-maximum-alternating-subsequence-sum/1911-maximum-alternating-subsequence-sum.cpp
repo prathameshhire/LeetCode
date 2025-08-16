@@ -2,7 +2,7 @@ class Solution {
 public:
     typedef long long ll;
     int n;
-    ll t[100001][2];
+    ll t[100000][2];
     ll solve(int idx, vector<int>& nums, bool flag) {
         if (idx >= n) return 0;
         if (t[idx][flag] != -1) return t[idx][flag];
