@@ -3,18 +3,20 @@ public:
     typedef long long ll;
     int n;
     ll t[100000][2];
-    ll solve(int idx, vector<int>& nums, bool flag) {
-        if (idx >= n) return 0;
-        if (t[idx][flag] != -1) return t[idx][flag];
-        ll skip = solve(idx+1, nums, flag);
-        ll val = nums[idx];
+    ll solve(int index, vector<int> &nums, bool flag) {
+        if (index == n) return 0;
+        
+        if (t[index][flag] != -1) return t[index][flag];
+
+        ll skip = solve(index+1, nums, flag);
+        ll val = nums[index];
         if (!flag) val = -val;
-        ll take = solve(idx+1, nums, !flag) + val;
-        return t[idx][flag] = max(skip, take);
+        ll pick = solve(index+1, nums, !flag) + val;
+        return t[index][flag] = max(skip, pick);
     }
     long long maxAlternatingSum(vector<int>& nums) {
         n = nums.size();
-        memset(t, -1, sizeof(t));
+        memset (t, -1, sizeof(t));
         return solve(0, nums, true);
     }
 };
