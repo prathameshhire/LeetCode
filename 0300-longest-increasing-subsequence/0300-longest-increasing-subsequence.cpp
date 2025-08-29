@@ -1,7 +1,7 @@
 class Solution {
 public:
     int n;
-    int t[2500][2500];
+    vector<vector<int>> t;
     int solve(vector<int> &nums, int i, int P) {
         if (i == n) return 0;
         if (P != -1 && t[i][P] != -1) return t[i][P];
@@ -16,7 +16,7 @@ public:
 
     int lengthOfLIS(vector<int>& nums) {
         n = nums.size();
-        memset(t, -1, sizeof(t));
+        t = vector<vector<int>> (n, vector<int> (n,-1));
         return solve(nums,0,-1);    
     }
 };
