@@ -6,8 +6,6 @@ public:
         return s1.length() < s2.length();
     }
 
-    int t[1001][1001];
-
     bool isPred(string &prev, string &curr) {
         int M = prev.length();
         int N = curr.length();
@@ -22,23 +20,20 @@ public:
         return i == M;
     }
 
-    int lis(vector<string> &words, int prev, int curr) {
-        if (curr == n) return 0;
-
-        if (prev != -1 && t[prev][curr] != -1) return t[prev][curr];
-        
-        int take = 0, skip = 0;
-        if (prev == -1 || isPred(words[prev], words[curr])) take = 1 + lis(words, curr, curr+1);
-        skip = lis(words, prev, curr+1);
-        if (prev != -1) t[prev][curr] = max(take, skip);
-        return max(take, skip);
-    }
-
     int longestStrChain(vector<string>& words) {
-        memset(t, -1, sizeof(t));
         n = words.size();
+        int maxL = 1;
         sort(words.begin(), words.end(), lambda);
-        return lis(words, -1, 0);
+        vector<int> t(n, 1);
+        for (int i = 0; i<n; i++) {
+            for (int j = 0; j<i; j++) {
+                if (isPred(words[j], words[i])) {
+                    t[i] = max(t[i], t[j] + 1);
+                    maxL = max(maxL, t[i]);
+                }
+            }
+        }
+        return maxL;
     }
 
 };
