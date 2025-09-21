@@ -12,9 +12,7 @@ public:
                 int j = i+L-1;
                 if (i == j) t[i][i] = true;
                 else if (i+1 == j) t[i][j] = (s[i] == s[j]);
-                else if (s[i] == s[j] && t[i+1][j-1]) t[i][j] = true;
-                else t[i][j] = false;
-
+                else t[i][j] = (s[i] == s[j] && t[i+1][j-1]);
                 if (t[i][j]) count++;
             }
 
