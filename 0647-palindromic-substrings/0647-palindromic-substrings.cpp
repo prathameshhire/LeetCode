@@ -22,6 +22,6 @@ public:
         if (i>j) return true;
         if (t[i][j] != -1) return t[i][j];
         if (s[i] == s[j]) return t[i][j] = check(s, i+1, j-1);
-        return false;
+        return t[i][j] = false;
     }
 };
