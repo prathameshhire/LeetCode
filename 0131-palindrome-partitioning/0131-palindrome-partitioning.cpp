@@ -1,29 +1,40 @@
 class Solution {
 public:
-    vector<vector<string>> partition(string s) {
-        vector<vector<string>> res;
-        vector<string> substring;
-        rec(s,res,substring,0);
-        return res;
-    }
-    void rec(const string &s, vector<vector<string>> &res, vector<string> &substring, int i) {
-        if (i >= s.length()) { // check i == s.length()
-            res.push_back(substring);
+    void solve(string &s, int i, vector<string> &part, vector<vector<bool>> &t, vector<vector<string>> &result) {
+        if (i == s.length()) {
+            result.push_back(part);
             return;
         }
+
         for (int j = i; j<s.length(); j++) {
-            if (isPali(s,i,j)) {
-                substring.push_back(s.substr(i,j-i+1));
-                rec(s,res,substring,j+1);
-                substring.pop_back();
+            if (t[i][j]) {
+                part.push_back(s.substr(i, j-i+1));
+                solve(s, j+1, part, t, result);
+                part.pop_back();
             }
         }
+
     }
-    bool isPali(const string &s, int i, int j) { 
-        while (i<j) {
-            if (s[i] != s[j]) return false;
-            i++; j--;
+    vector<vector<string>> partition(string s) {
+        int n = s.length();
+        vector<vector<bool>> t(n, vector<bool> (n));
+        for (int i = 0; i<n; i++) {
+            t[i][i] = true;
         }
-        return true;
+        for (int L=2; L<=n; L++) {
+            for (int i = 0; i < n-L+1; i++) {
+                int j = i+L-1;
+                if (s[i] == s[j]) {
+                    if (L==2) t[i][j] = true;
+                    else {
+                        t[i][j] = t[i+1][j-1];
+                    }
+                }
+            }
+        }
+        vector<vector<string>> result;
+        vector<string> part;
+        solve(s, 0, part, t, result);
+        return result;
     }
 };
