@@ -23,11 +23,11 @@ public:
 
         for (int i = 1; i<m; i++) {
             for (int j = 1; j<n; j++) {
-                int upMax = t[i-1][j].first;
-                int upMin = t[i-1][j].second;
+                ll upMax = t[i-1][j].first;
+                ll upMin = t[i-1][j].second;
 
-                int leftMax = t[i][j-1].first;
-                int leftMin = t[i][j-1].second;
+                ll leftMax = t[i][j-1].first;
+                ll leftMin = t[i][j-1].second;
             
                 t[i][j].first = max({upMax * grid[i][j], upMin * grid[i][j], leftMax * grid[i][j], leftMin * grid[i][j]});
                 t[i][j].second = min({upMax * grid[i][j], upMin * grid[i][j], leftMax * grid[i][j], leftMin * grid[i][j]});
