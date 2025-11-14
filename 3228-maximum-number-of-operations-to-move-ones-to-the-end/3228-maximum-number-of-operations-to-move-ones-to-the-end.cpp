@@ -2,14 +2,23 @@ class Solution {
 public:
     int maxOperations(string s) {
         int n = s.length();
-        int ones = 0;
-        int ans = 0;
+        int result = 0;
+        int i = 0;
+        int count = 0;
 
-        for (int i = 0; i < n; i++) {
-            if (s[i] == '1') ones++;
-            else if (i > 0 && s[i - 1] == '1') ans += ones;
+        while (i<n) {
+            if (s[i] == '0') {
+                result += count;
+                while(i<n && s[i] == '0') {
+                    i++;
+                }
+            }
+            else {
+                count++;
+                i++;
+            }
         }
 
-        return ans;
+        return result;
     }
 };
