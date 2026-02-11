@@ -13,6 +13,7 @@ public:
         int idleSlots = repeatedSize * n;
 
         for (int i = 24; i>=0; i--) {
+            if (mp[i] == 0) break;
             idleSlots -= min(mp[i], repeatedSize);
         }
 
