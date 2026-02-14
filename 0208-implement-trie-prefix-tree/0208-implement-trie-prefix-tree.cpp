@@ -45,7 +45,7 @@ public:
             }
             crawler = crawler->children[index];
         }
-        if (crawler == NULL || crawler->isEndOfWord == false) return false;
+        if (crawler->isEndOfWord == false) return false;
         return true;
     }
     
