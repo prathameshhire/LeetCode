@@ -1,47 +1,68 @@
-class TrieNode {
-public:
-    vector<TrieNode*> children;
-    bool isTerminal;
-    TrieNode() : children(26, nullptr) , isTerminal(false) {}
-};
-
-
 class WordDictionary {
 public:
-    TrieNode* root;
-    WordDictionary() : root(new TrieNode()) {}
+
+    struct trieNode {
+        bool isEndOfWord;
+        trieNode* children[26];
     
-    void addWord(string word) {
-        TrieNode* cur = root; 
-        for (char c: word) {
-            if (cur->children[c-'a'] == nullptr) {
-                cur->children[c-'a'] = new TrieNode();
-            }
-            cur = cur->children[c-'a'];
+    };
+
+    trieNode* createNode() {
+        trieNode* newNode = new trieNode();
+        newNode->isEndOfWord = false;
+        for (int i = 0; i<26; i++) {
+            newNode->children[i] = NULL;
         }
-        cur->isTerminal = true;
-    }
-    
-    bool search(string word) {
-        return dfs(word, 0, root);
+        return newNode;
     }
 
-    bool dfs(string word, int j, TrieNode* root) {
-        TrieNode* cur = root;
-        for (int i = j; i<word.size(); i++) {
-            char c = word[i];
-            if (c == '.') {
-                for (TrieNode* child : cur->children) {
-                    if (child!=nullptr && dfs(word, i+1, child)) return true;
+    trieNode* root;
+
+    WordDictionary() {
+        root = createNode();
+    }
+    
+    void addWord(string word) {
+        trieNode* crawler = root;
+        for (int i = 0; i<word.length(); i++) {
+            int index = word[i] - 'a';
+
+            if (crawler->children[index] == NULL) {
+                crawler->children[index] = createNode();
+            }
+
+            crawler = crawler->children[index];
+        }
+
+        crawler->isEndOfWord = true;
+    }
+    
+    bool searchUtil(trieNode* root, string word) {
+        trieNode* crawler = root;
+        for (int i = 0; i<word.length(); i++) {
+            char ch = word[i];
+            
+            if (ch == '.') {
+                for (int j = 0; j<26; j++) {
+                    if (crawler->children[j] != NULL) {
+                        if (searchUtil(crawler->children[j], word.substr(i+1)) == true) return true;
+                    }
                 }
                 return false;
             }
-            else {
-                if (cur->children[c-'a'] == nullptr) return false;
-                else cur = cur->children[c-'a'];
-            }
+
+
+            int index = ch-'a';
+            if (crawler->children[index] == NULL) return false;
+
+            crawler = crawler->children[index]; 
         }
-        return cur->isTerminal;
+
+        return (crawler->isEndOfWord);
+    }
+
+    bool search(string word) {
+        return searchUtil(root, word);
     }
 };
 
