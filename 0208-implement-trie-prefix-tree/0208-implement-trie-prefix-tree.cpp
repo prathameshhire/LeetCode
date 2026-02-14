@@ -1,31 +1,36 @@
 class TrieNode {
 public:
-    char data;
     TrieNode* children[26];
+    char data;
     bool isTerminal;
+
     TrieNode() {
         for (int i = 0; i<26; i++) {
             children[i] = NULL;
         }
     }
-
-    TrieNode(char ch) {
-        data = ch;
+    TrieNode(char data) {
+        this->data = data;
         for (int i = 0; i<26; i++) {
             children[i] = NULL;
         }
         isTerminal = false;
-    }    
+    }
 };
 
+
 class Trie {
-public:
+public: 
     TrieNode* root;
     Trie() {
         root = new TrieNode();
     }
     
-    void insertUtil(TrieNode* &root, string word) {
+    void insert(string word) {
+        insertUtil(word, root);
+    }
+
+    void insertUtil(string word, TrieNode* root) {
         if (word.length() == 0) {
             root->isTerminal = true;
             return;
@@ -41,39 +46,36 @@ public:
             child = new TrieNode(word[0]);
             root->children[index] = child;
         }
-        insertUtil(child, word.substr(1));
-    }
 
-    void insert(string word) {
-        insertUtil(root, word);
+        insertUtil(word.substr(1), child);
     }
     
-    bool searchUtil(TrieNode* &root, string word) {
+    bool search(string word) {
+        return searchUtil(word,root);
+    }
+
+    bool searchUtil(string word, TrieNode* root) {
         if (word.length() == 0) return root->isTerminal;
 
-        TrieNode* child;
         int index = word[0] - 'a';
-
+        TrieNode* child;
         if (root->children[index] != NULL) {
             child = root->children[index];
         }
-        else return false;
-        return searchUtil(child, word.substr(1));
-    }
 
-    bool search(string word) {
-        return searchUtil(root, word);
+        else return false;
+        return searchUtil(word.substr(1), child);
     }
     
     bool startsWith(string prefix) {
         TrieNode* cur = root;
-        for (char c: prefix) {
-            int index = c-'a';
+        for (char c:prefix) {
+            int index = c - 'a';
             if (cur->children[index] == NULL) {
                 return false;
             }
             cur = cur->children[index];
-        } 
+        }
         return true;
     }
 };
