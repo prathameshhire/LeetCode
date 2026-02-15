@@ -1,21 +1,23 @@
 class Solution {
 public:
     bool isSubstringPresent(string s) {
-        unordered_set<string> st;
-        for (int i = 0; i<s.length()-1; i++) {
-            string subS = s.substr(i, 2);
-            st.insert(subS);
-        }
+        int n=s.length();
+        if(n<2)return false; 
+         string temp1=s;
+         string temp2=s;
+         reverse(temp2.begin(),temp2.end());
+         for(int i=0;i+1<n;i++){
+            string sub=temp1.substr(i,2);
 
-        reverse(s.begin(), s.end());
-
-        for (int i = 0; i<s.length()-1; i++) {
-            string subS = s.substr(i,2);
-            if (st.find(subS) != st.end()){
-                return true;
+            for(int j=0;j+1<n;j++){
+                if(temp2[j]==sub[0] && temp2[j+1]==sub[1]){
+                    return true;
+                }
             }
-        }
 
-        return false;
+         }
+         return false;
     }
 };
+
+    
