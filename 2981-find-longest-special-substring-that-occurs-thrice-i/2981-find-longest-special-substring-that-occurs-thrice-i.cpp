@@ -16,9 +16,8 @@ public:
         for (auto &it : mp) {
             string str = it.first;
             int length = it.second;
-            if (length >= 3) {
-                int count = str.length();
-                result = max(result, count);
+            if (length >= 3 && str.length() > result) {
+                result = str.length();
             }
         }
 
