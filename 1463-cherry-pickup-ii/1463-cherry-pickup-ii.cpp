@@ -1,36 +1,40 @@
 class Solution {
 public:
-    int m, n;
-    int t[72][72][72];
-    int solve(vector<vector<int>>& grid, int row, int c1, int c2) {
-        if (row == m) return 0;
-        if (t[row][c1][c2] != -1) return t[row][c1][c2];
-        int cherry = grid[row][c1];
+    int cherryPickup(vector<vector<int>>& grid) {
+        int m = grid.size();
+        int n = grid[0].size();
 
-        if (c1 != c2) {
-            cherry += grid[row][c2];
-        }
+        int t[71][71][71] = {0};
 
-        int ans = 0;
-        
-        for (int i=-1; i<=1; i++) {
-            for (int j=-1; j<=1; j++) {
-                int new_c1 = c1 + i;
-                int new_c2 = c2 + j;
+        t[0][0][n-1] = (n==1) ? grid[0][0] : grid[0][0] + grid[0][n-1];
 
-                if (new_c1 >= 0 && new_c1 < n && new_c2 >= 0 && new_c2 < n) {
-                    ans = max(ans, solve(grid, row+1, new_c1, new_c2));
+        for (int row = 1; row < m; row++) {
+            for (int c1 = 0; c1 <= min(n-1, row); c1++) {
+                for (int c2 = max(n-row-1,0); c2<n; c2++) {
+                    int prevRowMax = 0;
+                    for (int prevC1 = max(0, c1-1); prevC1 <= min(n-1, c1+1); prevC1++) {
+                        for (int prevC2 = max(0, c2-1); prevC2 <= min(n-1, c2+1); prevC2++) {
+                            prevRowMax = max(prevRowMax, t[row-1][prevC1][prevC2]);        
+                        }
+                    }
+
+                    if (c1 != c2) {
+                        t[row][c1][c2] = prevRowMax + grid[row][c1] + grid[row][c2];
+                    }
+                    else {
+                        t[row][c1][c2] = prevRowMax + grid[row][c1];
+                    }
                 }
             }
         }
 
-        return t[row][c1][c2] = cherry+ans;
-    }
+        int ans = 0;
+        for (int i = 0; i<n; i++) {
+            for (int j = 0; j<n; j++) {
+                ans = max(ans, t[m-1][i][j]);
+            }
+        }
 
-    int cherryPickup(vector<vector<int>>& grid) {
-        memset(t, -1, sizeof(t));
-        m = grid.size();
-        n = grid[0].size();
-        return solve(grid, 0, 0, n-1);
+        return ans;
     }
 };
