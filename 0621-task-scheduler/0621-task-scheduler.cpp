@@ -1,26 +1,43 @@
 class Solution {
 public:
     int leastInterval(vector<char>& tasks, int n) {
-        if (n == 0) return tasks.size();
-        vector<int> mp(26,0);
-        for (char ch : tasks) {
-            mp[ch-'A']++;
+        unordered_map<char, int> mp;
+        
+        for (auto &t : tasks) {
+            mp[t]++;
+        }
+        
+        priority_queue<int> pq;
+        
+        for (auto &p : mp) {
+            pq.push(p.second);
+        }
+        
+        queue<pair<int,int>> q;
+        int time = 0;
+        
+        while (!pq.empty() || !q.empty()) {
+            time++;
+            if (pq.empty()) {
+                time = q.front().second;
+                pq.push(q.front().first);
+                q.pop();
+            }else {
+                int freq = pq.top();
+                pq.pop();
+                if (freq-1 != 0) {
+                    q.push({freq-1, time+n});
+                }
+            }
+            if (!q.empty()) {
+                if (time == q.front().second) {
+                    auto p = q.front();
+                    q.pop();
+                    pq.push(p.first);
+                }
+            }
         }
 
-        sort(mp.begin(), mp.end());
-        int maxFreq = mp[25];
-        int repeatedSize = maxFreq-1;
-        int idleSlots = repeatedSize * n;
-
-        for (int i = 24; i>=0; i--) {
-            if (mp[i] == 0) break;
-            idleSlots -= min(mp[i], repeatedSize);
-        }
-
-        if (idleSlots > 0) {
-            return tasks.size() + idleSlots;
-        }
-
-        return tasks.size();
+        return time;
     }
 };
