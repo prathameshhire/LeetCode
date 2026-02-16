@@ -1,26 +1,29 @@
 class Solution {
 public:
     int maximumLength(string s) {
-        unordered_map<string, int> mp;
-        for (int i = 0; i<s.length(); i++) {
-            string curr = "";
-            for (int j = i; j<s.length(); j++) {
-                if (curr.length() == 0 || curr.back() == s[j]) {
-                    curr += s[j];
-                    mp[curr]++;
+        map<pair<char, int>, int> mp;
+        int n = s.length();
+
+        for (int i = 0; i<n; i++) {
+            char ch = s[i];
+            int l = 0;
+            for (int j = i; j<n; j++) {
+                if (ch == s[j]) {
+                    l++;
+                    mp[{ch, l}]++;
                 }
                 else break;
             }
         }
-        int result = 0;
+        int ans = 0;
         for (auto &it : mp) {
-            string str = it.first;
-            int length = it.second;
-            if (length >= 3 && str.length() > result) {
-                result = str.length();
+            int length = it.first.second;
+            int freq = it.second;
+            if (freq >= 3) {
+                ans = max(ans, length);
             }
         }
 
-        return result == 0 ? -1 : result;
+        return ans == 0 ? -1 : ans;
     }
 };
