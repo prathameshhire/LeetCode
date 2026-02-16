@@ -21,8 +21,8 @@ public:
     
     int get(int index, int snap_id) {
         auto it = upper_bound(vec[index].begin(), vec[index].end(), make_pair(snap_id, INT_MAX));
-        
-        return prev(it)->second;
+        it--;
+        return it->second;
     }
 };
 
