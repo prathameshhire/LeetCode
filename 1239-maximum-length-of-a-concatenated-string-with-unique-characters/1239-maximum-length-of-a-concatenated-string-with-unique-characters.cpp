@@ -42,7 +42,7 @@ public:
     int maxLength(vector<string>& arr) {
         string temp = "";
         int n = arr.size();
-        // mp.clear();
+        mp.clear();
         return solve(temp, 0, arr, n);
     }
 
