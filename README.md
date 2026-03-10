@@ -26,12 +26,18 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0264-ugly-number-ii](https://github.com/prathameshhire/LeetCode/tree/main/0264-ugly-number-ii/) | Medium |
+| [0279-perfect-squares](https://github.com/prathameshhire/LeetCode/tree/main/0279-perfect-squares/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0264-ugly-number-ii](https://github.com/prathameshhire/LeetCode/tree/main/0264-ugly-number-ii/) | Medium |
+| [0279-perfect-squares](https://github.com/prathameshhire/LeetCode/tree/main/0279-perfect-squares/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0264-ugly-number-ii](https://github.com/prathameshhire/LeetCode/tree/main/0264-ugly-number-ii/) | Medium |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0279-perfect-squares](https://github.com/prathameshhire/LeetCode/tree/main/0279-perfect-squares/) | Medium |
 <!---LeetCode Topics End-->
