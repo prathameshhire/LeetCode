@@ -1,17 +1,20 @@
 class Solution {
 public:
+
+    int t[46];
+
+    int solve(int n) {
+        if (n < 0) return 0;
+        if (t[n] != -1) return t[n];
+        if (n == 0) return 1;
+        int onestep = solve(n-1);
+        int twostep = solve(n-2);
+
+        return t[n] = onestep + twostep;
+    } 
+
     int climbStairs(int n) {
-        if (n<=2) return n;
-        vector<int> array(n+1);
-        int a = 1;
-        int b = 2;
-        int c = 3;
-        for (int i = 3; i<=n; i++) {
-            c = a + b;
-            int temp = b;
-            a = temp;
-            b = c;
-        }
-        return c;
+        memset(t, -1, sizeof(t));
+        return solve(n);
     }
 };
