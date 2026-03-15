@@ -27,11 +27,13 @@
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0070-climbing-stairs](https://github.com/prathameshhire/LeetCode/tree/main/0070-climbing-stairs/) | Easy |
 | [0264-ugly-number-ii](https://github.com/prathameshhire/LeetCode/tree/main/0264-ugly-number-ii/) | Medium |
 | [0279-perfect-squares](https://github.com/prathameshhire/LeetCode/tree/main/0279-perfect-squares/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0070-climbing-stairs](https://github.com/prathameshhire/LeetCode/tree/main/0070-climbing-stairs/) | Easy |
 | [0264-ugly-number-ii](https://github.com/prathameshhire/LeetCode/tree/main/0264-ugly-number-ii/) | Medium |
 | [0279-perfect-squares](https://github.com/prathameshhire/LeetCode/tree/main/0279-perfect-squares/) | Medium |
 | [0446-arithmetic-slices-ii-subsequence](https://github.com/prathameshhire/LeetCode/tree/main/0446-arithmetic-slices-ii-subsequence/) | Hard |
@@ -52,4 +54,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/prathameshhire/LeetCode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
+## Memoization
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0070-climbing-stairs](https://github.com/prathameshhire/LeetCode/tree/main/0070-climbing-stairs/) | Easy |
 <!---LeetCode Topics End-->
