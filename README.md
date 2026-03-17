@@ -42,6 +42,7 @@
 | [0279-perfect-squares](https://github.com/prathameshhire/LeetCode/tree/main/0279-perfect-squares/) | Medium |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/prathameshhire/LeetCode/tree/main/0309-best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
 | [0446-arithmetic-slices-ii-subsequence](https://github.com/prathameshhire/LeetCode/tree/main/0446-arithmetic-slices-ii-subsequence/) | Hard |
+| [0790-domino-and-tromino-tiling](https://github.com/prathameshhire/LeetCode/tree/main/0790-domino-and-tromino-tiling/) | Medium |
 | [0931-minimum-falling-path-sum](https://github.com/prathameshhire/LeetCode/tree/main/0931-minimum-falling-path-sum/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/prathameshhire/LeetCode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 ## Heap (Priority Queue)
