@@ -1,14 +1,5 @@
 class Solution {
 public:
-    void dfs(int u, unordered_map<int, vector<int>> &mp, vector<bool> &visited) {
-        visited[u] = true;
-        for (auto &v : mp[u]) {
-            if (!visited[v]) {
-                dfs(v, mp, visited);
-            }
-        }
-    }
-
     bool canVisitAllRooms(vector<vector<int>>& rooms) {
         unordered_map<int, vector<int>> mp;
         for (int i = 0; i<rooms.size(); i++) {
@@ -17,7 +8,19 @@ public:
             }
         }
         vector<bool> visited(rooms.size(), false);
-        dfs(0, mp, visited);
+        queue<int> q;
+        q.push(0);
+        visited[0] = true;
+        while(!q.empty()) {
+            int u = q.front();
+            q.pop();
+            for (int &v : mp[u]) {
+                if (!visited[v]) {
+                    q.push(v);
+                    visited[v] = true;
+                }
+            }
+        }
         for (bool b : visited) {
             if (!b) return false;
         }
