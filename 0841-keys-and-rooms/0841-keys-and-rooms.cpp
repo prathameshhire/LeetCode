@@ -1,7 +1,6 @@
 class Solution {
 public:
     void dfs(int u, unordered_map<int, vector<int>> &mp, vector<bool> &visited) {
-        if (visited[u] == true) return;
         visited[u] = true;
         for (auto &v : mp[u]) {
             if (!visited[v]) {
