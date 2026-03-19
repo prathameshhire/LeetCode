@@ -1,0 +1,27 @@
+class Solution {
+public:
+    void dfs(int u, unordered_map<int, vector<int>> &mp, vector<bool> &visited) {
+        if (visited[u] == true) return;
+        visited[u] = true;
+        for (auto &v : mp[u]) {
+            if (!visited[v]) {
+                dfs(v, mp, visited);
+            }
+        }
+    }
+
+    bool canVisitAllRooms(vector<vector<int>>& rooms) {
+        unordered_map<int, vector<int>> mp;
+        for (int i = 0; i<rooms.size(); i++) {
+            for (auto &key : rooms[i]) {
+                mp[i].push_back(key);
+            }
+        }
+        vector<bool> visited(rooms.size(), false);
+        dfs(0, mp, visited);
+        for (bool b : visited) {
+            if (!b) return false;
+        }
+        return true;
+    }
+};
