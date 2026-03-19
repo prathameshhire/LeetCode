@@ -58,6 +58,7 @@
 | ------- | ------- |
 | [0279-perfect-squares](https://github.com/prathameshhire/LeetCode/tree/main/0279-perfect-squares/) | Medium |
 | [0433-minimum-genetic-mutation](https://github.com/prathameshhire/LeetCode/tree/main/0433-minimum-genetic-mutation/) | Medium |
+| [0841-keys-and-rooms](https://github.com/prathameshhire/LeetCode/tree/main/0841-keys-and-rooms/) | Medium |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/prathameshhire/LeetCode/tree/main/1926-nearest-exit-from-entrance-in-maze/) | Medium |
 | [1971-find-if-path-exists-in-graph](https://github.com/prathameshhire/LeetCode/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 ## Binary Search
@@ -80,6 +81,7 @@
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0841-keys-and-rooms](https://github.com/prathameshhire/LeetCode/tree/main/0841-keys-and-rooms/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/prathameshhire/LeetCode/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [1971-find-if-path-exists-in-graph](https://github.com/prathameshhire/LeetCode/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 ## Union-Find
@@ -90,6 +92,7 @@
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0841-keys-and-rooms](https://github.com/prathameshhire/LeetCode/tree/main/0841-keys-and-rooms/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/prathameshhire/LeetCode/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [1971-find-if-path-exists-in-graph](https://github.com/prathameshhire/LeetCode/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 <!---LeetCode Topics End-->
