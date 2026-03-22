@@ -22,7 +22,7 @@ public:
 
         int l = 0;
         int r = col;
-        while (l<r) {
+        while (l<=r) {
             int mid = (l+r)/2;
             if (matrix[row][mid] < target) {
                 l = mid+1;
