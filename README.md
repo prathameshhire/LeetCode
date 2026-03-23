@@ -19,6 +19,7 @@
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/prathameshhire/LeetCode/tree/main/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
 | [1539-kth-missing-positive-number](https://github.com/prathameshhire/LeetCode/tree/main/1539-kth-missing-positive-number/) | Easy |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/prathameshhire/LeetCode/tree/main/1926-nearest-exit-from-entrance-in-maze/) | Medium |
+| [2187-minimum-time-to-complete-trips](https://github.com/prathameshhire/LeetCode/tree/main/2187-minimum-time-to-complete-trips/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -84,6 +85,7 @@
 | [0540-single-element-in-a-sorted-array](https://github.com/prathameshhire/LeetCode/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/prathameshhire/LeetCode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1539-kth-missing-positive-number](https://github.com/prathameshhire/LeetCode/tree/main/1539-kth-missing-positive-number/) | Easy |
+| [2187-minimum-time-to-complete-trips](https://github.com/prathameshhire/LeetCode/tree/main/2187-minimum-time-to-complete-trips/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
