@@ -1,21 +1,38 @@
 class Solution {
 public:
-    bool search(vector<int>& nums, int target) {
-        int l = 0, r = nums.size()-1;
-        while (l<=r) {
-            int m = l + (r-l)/2;
-            if (nums[m] == target) return true;
+    int findPivot(vector<int> &nums, int l, int r) {
+        while (l < r  && nums[l] == nums[l+1]) l++;
+        while (l < r  && nums[r] == nums[r-1]) r--;
+        while(l<r) {
+            int mid = l + (r-l)/2;
+            if (nums[mid] > nums[r]) {
+                l = mid+1;
+            }
+            else {
+                r = mid;
+            }
+        }
+        return r;
+    }
 
-            if (nums[l] < nums[m]) {
-                if (nums[l] <= target && target < nums[m]) r = m-1;
-                else l = m+1;
+    bool binarySearch(vector<int> &nums, int l, int r, int target) {
+        while (l <= r) {
+            int mid = l + (r-l)/2;
+            if (nums[mid] > target) {
+                r = mid-1;
             }
-            else if (nums[l] > nums[m]) {
-                if (nums[m] < target && target <= nums[r]) l = m+1;
-                else r = m-1;
+            else if(nums[mid] < target) {
+                l = mid+1;
             }
-            else l++;
+            else if (target == nums[mid]) return true;
         }
         return false;
+    }
+
+    bool search(vector<int>& nums, int target) {
+        int n = nums.size();
+        int pivot_index = findPivot(nums, 0, n-1);
+        if(binarySearch(nums, 0, pivot_index-1, target)) return true;
+        return binarySearch(nums, pivot_index, n-1, target);
     }
 };
