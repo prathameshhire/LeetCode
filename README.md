@@ -79,6 +79,7 @@
 | [0074-search-a-2d-matrix](https://github.com/prathameshhire/LeetCode/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/prathameshhire/LeetCode/tree/main/0081-search-in-rotated-sorted-array-ii/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/prathameshhire/LeetCode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
+| [0374-guess-number-higher-or-lower](https://github.com/prathameshhire/LeetCode/tree/main/0374-guess-number-higher-or-lower/) | Easy |
 | [0540-single-element-in-a-sorted-array](https://github.com/prathameshhire/LeetCode/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/prathameshhire/LeetCode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 ## Sorting
@@ -123,4 +124,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0834-sum-of-distances-in-tree](https://github.com/prathameshhire/LeetCode/tree/main/0834-sum-of-distances-in-tree/) | Hard |
+## Interactive
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0374-guess-number-higher-or-lower](https://github.com/prathameshhire/LeetCode/tree/main/0374-guess-number-higher-or-lower/) | Easy |
 <!---LeetCode Topics End-->
