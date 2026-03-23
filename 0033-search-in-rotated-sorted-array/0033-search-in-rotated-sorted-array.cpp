@@ -11,8 +11,7 @@ public:
                 r = mid;
             }
         }
-        mid = l + (r-l)/2;
-        return mid;
+        return r;
     }
 
     int binarySearch(vector<int> &nums, int l, int r, int target) {
