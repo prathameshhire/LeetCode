@@ -15,6 +15,7 @@
 | [0446-arithmetic-slices-ii-subsequence](https://github.com/prathameshhire/LeetCode/tree/main/0446-arithmetic-slices-ii-subsequence/) | Hard |
 | [0540-single-element-in-a-sorted-array](https://github.com/prathameshhire/LeetCode/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
 | [0704-binary-search](https://github.com/prathameshhire/LeetCode/tree/main/0704-binary-search/) | Easy |
+| [0852-peak-index-in-a-mountain-array](https://github.com/prathameshhire/LeetCode/tree/main/0852-peak-index-in-a-mountain-array/) | Medium |
 | [0875-koko-eating-bananas](https://github.com/prathameshhire/LeetCode/tree/main/0875-koko-eating-bananas/) | Medium |
 | [0931-minimum-falling-path-sum](https://github.com/prathameshhire/LeetCode/tree/main/0931-minimum-falling-path-sum/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/prathameshhire/LeetCode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
@@ -92,6 +93,7 @@
 | [0374-guess-number-higher-or-lower](https://github.com/prathameshhire/LeetCode/tree/main/0374-guess-number-higher-or-lower/) | Easy |
 | [0540-single-element-in-a-sorted-array](https://github.com/prathameshhire/LeetCode/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
 | [0704-binary-search](https://github.com/prathameshhire/LeetCode/tree/main/0704-binary-search/) | Easy |
+| [0852-peak-index-in-a-mountain-array](https://github.com/prathameshhire/LeetCode/tree/main/0852-peak-index-in-a-mountain-array/) | Medium |
 | [0875-koko-eating-bananas](https://github.com/prathameshhire/LeetCode/tree/main/0875-koko-eating-bananas/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/prathameshhire/LeetCode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1539-kth-missing-positive-number](https://github.com/prathameshhire/LeetCode/tree/main/1539-kth-missing-positive-number/) | Easy |
