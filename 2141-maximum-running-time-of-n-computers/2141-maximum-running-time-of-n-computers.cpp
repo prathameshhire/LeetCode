@@ -12,9 +12,7 @@ public:
     long long maxRunTime(int n, vector<int>& batteries) {
         ll l = *min_element(batteries.begin(), batteries.end());
         ll time = 0;
-        for (int battery: batteries) {
-            time += battery;
-        }
+        for (int &battery: batteries) time += battery;
         ll r = time/n;
         ll ans = 0;
         while (l <= r) {
