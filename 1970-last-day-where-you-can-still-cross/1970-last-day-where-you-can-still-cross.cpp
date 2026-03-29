@@ -5,15 +5,24 @@ public:
 
     vector<vector<int>> directions = {{0,1}, {1,0}, {-1,0}, {0, -1}};
 
-    bool DFS(vector<vector<int>> &grid, int r, int c) {
-        if (r < 0 || r >= ROW || c < 0 || c >= COL || grid[r][c]) return false;
-        if (r == ROW-1) return true;
+    bool BFS(vector<vector<int>> &grid, int r, int c) {
+        queue<pair<int, int>> q;
         grid[r][c] = 1;
-        for (auto &dir : directions) {
-            int i = r + dir[0];
-            int j = c + dir[1];
-            if (DFS(grid, i, j)) {
-                return true;
+        q.push({r,c});
+
+        while (!q.empty()) {
+            auto temp = q.front();
+            q.pop();
+            int x = temp.first;
+            int y = temp.second;
+            if (x == ROW-1) return true;
+            for (auto &dir : directions) {
+                int i = x + dir[0];
+                int j = y + dir[1];
+                if (i >= 0 && i < ROW && j >= 0 && j < COL && grid[i][j] == 0) {
+                    grid[i][j] = 1;
+                    q.push({i,j});
+                }
             }
         }
         return false;
@@ -28,7 +37,7 @@ public:
         }
 
         for (int j = 0; j<COL; j++) {
-            if (DFS(grid, 0, j)) return true;
+            if (!grid[0][j] && BFS(grid, 0, j)) return true;
         }
 
         return false;
