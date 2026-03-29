@@ -2,12 +2,11 @@ class Solution {
 public:
     bool valid(vector<int> &nums, int mid, int p) {
         int correct = 0;
-        int i = 0;
-        while (i<nums.size()-1) {
+        for(int i = 0; i<nums.size()-1;i++) {
             if (nums[i+1] - nums[i] <= mid) {
                 correct++;
-                i+=2;
-            } else i++;
+                i++;
+            } else continue;
         }
         return correct >= p;
     }
