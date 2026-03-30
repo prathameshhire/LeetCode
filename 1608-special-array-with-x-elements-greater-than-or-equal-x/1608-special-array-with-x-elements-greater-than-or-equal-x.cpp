@@ -2,9 +2,16 @@ class Solution {
 public:
     int specialArray(vector<int>& nums) {
         sort(nums.begin(), nums.end());
-        for(int i = 0; i<=nums.size(); i++) {
-            int count = nums.size() - (lower_bound(nums.begin(), nums.end(), i) - nums.begin());
-            if (count == i) return i;
+        int n = nums.size();
+        int l = 0;
+        int r = n;
+        while (l <= r) {
+            int mid = l + (r-l)/2;
+            int index = lower_bound(nums.begin(), nums.end(), mid) - nums.begin();
+            int count = n - index;
+            if (count == mid) return mid;
+            else if(count>mid) l = mid + 1;
+            else r = mid-1;
         }
         return -1;
     }
