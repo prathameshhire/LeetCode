@@ -22,6 +22,7 @@
 | [1095-find-in-mountain-array](https://github.com/prathameshhire/LeetCode/tree/main/1095-find-in-mountain-array/) | Hard |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/prathameshhire/LeetCode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/prathameshhire/LeetCode/tree/main/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
+| [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/prathameshhire/LeetCode/tree/main/1482-minimum-number-of-days-to-make-m-bouquets/) | Medium |
 | [1539-kth-missing-positive-number](https://github.com/prathameshhire/LeetCode/tree/main/1539-kth-missing-positive-number/) | Easy |
 | [1608-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/prathameshhire/LeetCode/tree/main/1608-special-array-with-x-elements-greater-than-or-equal-x/) | Easy |
 | [1870-minimum-speed-to-arrive-on-time](https://github.com/prathameshhire/LeetCode/tree/main/1870-minimum-speed-to-arrive-on-time/) | Medium |
@@ -111,6 +112,7 @@
 | [0875-koko-eating-bananas](https://github.com/prathameshhire/LeetCode/tree/main/0875-koko-eating-bananas/) | Medium |
 | [1095-find-in-mountain-array](https://github.com/prathameshhire/LeetCode/tree/main/1095-find-in-mountain-array/) | Hard |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/prathameshhire/LeetCode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
+| [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/prathameshhire/LeetCode/tree/main/1482-minimum-number-of-days-to-make-m-bouquets/) | Medium |
 | [1539-kth-missing-positive-number](https://github.com/prathameshhire/LeetCode/tree/main/1539-kth-missing-positive-number/) | Easy |
 | [1608-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/prathameshhire/LeetCode/tree/main/1608-special-array-with-x-elements-greater-than-or-equal-x/) | Easy |
 | [1870-minimum-speed-to-arrive-on-time](https://github.com/prathameshhire/LeetCode/tree/main/1870-minimum-speed-to-arrive-on-time/) | Medium |
