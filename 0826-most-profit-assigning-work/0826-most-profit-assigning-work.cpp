@@ -8,22 +8,16 @@ public:
             vec[i] = {difficulty[i], profit[i]};
         }
         sort(vec.begin(), vec.end());
-        for (int i = 1; i<n; i++) {
-            vec[i].second = max(vec[i].second, vec[i-1].second);
-        }
+        sort(worker.begin(), worker.end());
         int totalProfit = 0;
+        int j = 0;
+        int maxProfit = 0;
         for (int i = 0; i<m; i++) {
-            int l = 0, r = vec.size()-1;
-            int currProfit = 0;
-            while (l<=r) {
-                int mid = l+(r-l)/2;
-                if (worker[i] >= vec[mid].first) {
-                    l = mid+1;
-                    currProfit = vec[mid].second;
-                }
-                else r = mid-1;
+            while (j<n && worker[i] >= vec[j].first){
+                maxProfit = max(maxProfit, vec[j].second);
+                j++;
             }
-            totalProfit += currProfit;
+            totalProfit += maxProfit;
         }
         return totalProfit;
     }
