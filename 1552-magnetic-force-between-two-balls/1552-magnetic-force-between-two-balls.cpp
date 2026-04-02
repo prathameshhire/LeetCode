@@ -8,9 +8,10 @@ public:
             if (curr - prev >= value) {
                 prev = curr;
                 count++;
-            } 
+            }
+            if (count == m) break; 
         }
-        return count >= m;
+        return count == m;
     }
     int maxDistance(vector<int>& position, int m) {
         int n = position.size();
