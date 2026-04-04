@@ -10,6 +10,9 @@ public:
         int l = 1;
         int r = *max_element(candies.begin(), candies.end());
         int result = 0;
+        long long totalC = 0;
+        for (auto &candy : candies) totalC += candy;
+        if (totalC < k) return 0;
         while (l<=r) {
             int mid = l+(r-l)/2;
             if (possible(candies, mid, k)) {
