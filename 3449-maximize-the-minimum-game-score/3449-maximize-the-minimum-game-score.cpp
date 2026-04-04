@@ -25,7 +25,7 @@ public:
 
     long long maxScore(vector<int>& points, int m) {
         long long l = 1;
-        long long r = 10^15;
+        long long r = 1e15;
         long long result = 0;
         while (l <= r) {
             long long mid = l+(r-l)/2;
