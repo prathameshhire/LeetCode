@@ -35,6 +35,7 @@
 | [2070-most-beautiful-item-for-each-query](https://github.com/prathameshhire/LeetCode/tree/main/2070-most-beautiful-item-for-each-query/) | Medium |
 | [2141-maximum-running-time-of-n-computers](https://github.com/prathameshhire/LeetCode/tree/main/2141-maximum-running-time-of-n-computers/) | Hard |
 | [2187-minimum-time-to-complete-trips](https://github.com/prathameshhire/LeetCode/tree/main/2187-minimum-time-to-complete-trips/) | Medium |
+| [2226-maximum-candies-allocated-to-k-children](https://github.com/prathameshhire/LeetCode/tree/main/2226-maximum-candies-allocated-to-k-children/) | Medium |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/prathameshhire/LeetCode/tree/main/2251-number-of-flowers-in-full-bloom/) | Hard |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/prathameshhire/LeetCode/tree/main/2300-successful-pairs-of-spells-and-potions/) | Medium |
 | [2439-minimize-maximum-of-array](https://github.com/prathameshhire/LeetCode/tree/main/2439-minimize-maximum-of-array/) | Medium |
@@ -131,6 +132,7 @@
 | [2070-most-beautiful-item-for-each-query](https://github.com/prathameshhire/LeetCode/tree/main/2070-most-beautiful-item-for-each-query/) | Medium |
 | [2141-maximum-running-time-of-n-computers](https://github.com/prathameshhire/LeetCode/tree/main/2141-maximum-running-time-of-n-computers/) | Hard |
 | [2187-minimum-time-to-complete-trips](https://github.com/prathameshhire/LeetCode/tree/main/2187-minimum-time-to-complete-trips/) | Medium |
+| [2226-maximum-candies-allocated-to-k-children](https://github.com/prathameshhire/LeetCode/tree/main/2226-maximum-candies-allocated-to-k-children/) | Medium |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/prathameshhire/LeetCode/tree/main/2251-number-of-flowers-in-full-bloom/) | Hard |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/prathameshhire/LeetCode/tree/main/2300-successful-pairs-of-spells-and-potions/) | Medium |
 | [2439-minimize-maximum-of-array](https://github.com/prathameshhire/LeetCode/tree/main/2439-minimize-maximum-of-array/) | Medium |
