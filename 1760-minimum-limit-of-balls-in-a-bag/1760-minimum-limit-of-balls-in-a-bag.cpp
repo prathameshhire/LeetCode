@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool possible(vector<int> &nums, int ops, int mid) {
-        for (int num:nums) {
+        for (int &num:nums) {
             ops -= (num-1)/mid;
         }
         return ops >= 0;
