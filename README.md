@@ -33,6 +33,7 @@
 | [1970-last-day-where-you-can-still-cross](https://github.com/prathameshhire/LeetCode/tree/main/1970-last-day-where-you-can-still-cross/) | Hard |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/prathameshhire/LeetCode/tree/main/2064-minimized-maximum-of-products-distributed-to-any-store/) | Medium |
 | [2070-most-beautiful-item-for-each-query](https://github.com/prathameshhire/LeetCode/tree/main/2070-most-beautiful-item-for-each-query/) | Medium |
+| [2071-maximum-number-of-tasks-you-can-assign](https://github.com/prathameshhire/LeetCode/tree/main/2071-maximum-number-of-tasks-you-can-assign/) | Hard |
 | [2141-maximum-running-time-of-n-computers](https://github.com/prathameshhire/LeetCode/tree/main/2141-maximum-running-time-of-n-computers/) | Hard |
 | [2187-minimum-time-to-complete-trips](https://github.com/prathameshhire/LeetCode/tree/main/2187-minimum-time-to-complete-trips/) | Medium |
 | [2226-maximum-candies-allocated-to-k-children](https://github.com/prathameshhire/LeetCode/tree/main/2226-maximum-candies-allocated-to-k-children/) | Medium |
@@ -133,6 +134,7 @@
 | [1970-last-day-where-you-can-still-cross](https://github.com/prathameshhire/LeetCode/tree/main/1970-last-day-where-you-can-still-cross/) | Hard |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/prathameshhire/LeetCode/tree/main/2064-minimized-maximum-of-products-distributed-to-any-store/) | Medium |
 | [2070-most-beautiful-item-for-each-query](https://github.com/prathameshhire/LeetCode/tree/main/2070-most-beautiful-item-for-each-query/) | Medium |
+| [2071-maximum-number-of-tasks-you-can-assign](https://github.com/prathameshhire/LeetCode/tree/main/2071-maximum-number-of-tasks-you-can-assign/) | Hard |
 | [2141-maximum-running-time-of-n-computers](https://github.com/prathameshhire/LeetCode/tree/main/2141-maximum-running-time-of-n-computers/) | Hard |
 | [2187-minimum-time-to-complete-trips](https://github.com/prathameshhire/LeetCode/tree/main/2187-minimum-time-to-complete-trips/) | Medium |
 | [2226-maximum-candies-allocated-to-k-children](https://github.com/prathameshhire/LeetCode/tree/main/2226-maximum-candies-allocated-to-k-children/) | Medium |
@@ -156,6 +158,7 @@
 | [1552-magnetic-force-between-two-balls](https://github.com/prathameshhire/LeetCode/tree/main/1552-magnetic-force-between-two-balls/) | Medium |
 | [1608-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/prathameshhire/LeetCode/tree/main/1608-special-array-with-x-elements-greater-than-or-equal-x/) | Easy |
 | [2070-most-beautiful-item-for-each-query](https://github.com/prathameshhire/LeetCode/tree/main/2070-most-beautiful-item-for-each-query/) | Medium |
+| [2071-maximum-number-of-tasks-you-can-assign](https://github.com/prathameshhire/LeetCode/tree/main/2071-maximum-number-of-tasks-you-can-assign/) | Hard |
 | [2141-maximum-running-time-of-n-computers](https://github.com/prathameshhire/LeetCode/tree/main/2141-maximum-running-time-of-n-computers/) | Hard |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/prathameshhire/LeetCode/tree/main/2251-number-of-flowers-in-full-bloom/) | Hard |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/prathameshhire/LeetCode/tree/main/2300-successful-pairs-of-spells-and-potions/) | Medium |
@@ -216,6 +219,7 @@
 | ------- | ------- |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/prathameshhire/LeetCode/tree/main/0719-find-k-th-smallest-pair-distance/) | Hard |
 | [0826-most-profit-assigning-work](https://github.com/prathameshhire/LeetCode/tree/main/0826-most-profit-assigning-work/) | Medium |
+| [2071-maximum-number-of-tasks-you-can-assign](https://github.com/prathameshhire/LeetCode/tree/main/2071-maximum-number-of-tasks-you-can-assign/) | Hard |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/prathameshhire/LeetCode/tree/main/2300-successful-pairs-of-spells-and-potions/) | Medium |
 | [2563-count-the-number-of-fair-pairs](https://github.com/prathameshhire/LeetCode/tree/main/2563-count-the-number-of-fair-pairs/) | Medium |
 ## Greedy
@@ -223,6 +227,7 @@
 | ------- | ------- |
 | [0826-most-profit-assigning-work](https://github.com/prathameshhire/LeetCode/tree/main/0826-most-profit-assigning-work/) | Medium |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/prathameshhire/LeetCode/tree/main/2064-minimized-maximum-of-products-distributed-to-any-store/) | Medium |
+| [2071-maximum-number-of-tasks-you-can-assign](https://github.com/prathameshhire/LeetCode/tree/main/2071-maximum-number-of-tasks-you-can-assign/) | Hard |
 | [2141-maximum-running-time-of-n-computers](https://github.com/prathameshhire/LeetCode/tree/main/2141-maximum-running-time-of-n-computers/) | Hard |
 | [2439-minimize-maximum-of-array](https://github.com/prathameshhire/LeetCode/tree/main/2439-minimize-maximum-of-array/) | Medium |
 | [2448-minimum-cost-to-make-array-equal](https://github.com/prathameshhire/LeetCode/tree/main/2448-minimum-cost-to-make-array-equal/) | Hard |
@@ -244,4 +249,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2968-apply-operations-to-maximize-frequency-score](https://github.com/prathameshhire/LeetCode/tree/main/2968-apply-operations-to-maximize-frequency-score/) | Hard |
+## Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2071-maximum-number-of-tasks-you-can-assign](https://github.com/prathameshhire/LeetCode/tree/main/2071-maximum-number-of-tasks-you-can-assign/) | Hard |
+## Monotonic Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2071-maximum-number-of-tasks-you-can-assign](https://github.com/prathameshhire/LeetCode/tree/main/2071-maximum-number-of-tasks-you-can-assign/) | Hard |
 <!---LeetCode Topics End-->
