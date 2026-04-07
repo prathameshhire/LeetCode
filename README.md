@@ -34,6 +34,7 @@
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/prathameshhire/LeetCode/tree/main/2064-minimized-maximum-of-products-distributed-to-any-store/) | Medium |
 | [2070-most-beautiful-item-for-each-query](https://github.com/prathameshhire/LeetCode/tree/main/2070-most-beautiful-item-for-each-query/) | Medium |
 | [2071-maximum-number-of-tasks-you-can-assign](https://github.com/prathameshhire/LeetCode/tree/main/2071-maximum-number-of-tasks-you-can-assign/) | Hard |
+| [2106-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/prathameshhire/LeetCode/tree/main/2106-maximum-fruits-harvested-after-at-most-k-steps/) | Hard |
 | [2141-maximum-running-time-of-n-computers](https://github.com/prathameshhire/LeetCode/tree/main/2141-maximum-running-time-of-n-computers/) | Hard |
 | [2187-minimum-time-to-complete-trips](https://github.com/prathameshhire/LeetCode/tree/main/2187-minimum-time-to-complete-trips/) | Medium |
 | [2226-maximum-candies-allocated-to-k-children](https://github.com/prathameshhire/LeetCode/tree/main/2226-maximum-candies-allocated-to-k-children/) | Medium |
@@ -135,6 +136,7 @@
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/prathameshhire/LeetCode/tree/main/2064-minimized-maximum-of-products-distributed-to-any-store/) | Medium |
 | [2070-most-beautiful-item-for-each-query](https://github.com/prathameshhire/LeetCode/tree/main/2070-most-beautiful-item-for-each-query/) | Medium |
 | [2071-maximum-number-of-tasks-you-can-assign](https://github.com/prathameshhire/LeetCode/tree/main/2071-maximum-number-of-tasks-you-can-assign/) | Hard |
+| [2106-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/prathameshhire/LeetCode/tree/main/2106-maximum-fruits-harvested-after-at-most-k-steps/) | Hard |
 | [2141-maximum-running-time-of-n-computers](https://github.com/prathameshhire/LeetCode/tree/main/2141-maximum-running-time-of-n-computers/) | Hard |
 | [2187-minimum-time-to-complete-trips](https://github.com/prathameshhire/LeetCode/tree/main/2187-minimum-time-to-complete-trips/) | Medium |
 | [2226-maximum-candies-allocated-to-k-children](https://github.com/prathameshhire/LeetCode/tree/main/2226-maximum-candies-allocated-to-k-children/) | Medium |
@@ -237,6 +239,7 @@
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [2106-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/prathameshhire/LeetCode/tree/main/2106-maximum-fruits-harvested-after-at-most-k-steps/) | Hard |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/prathameshhire/LeetCode/tree/main/2251-number-of-flowers-in-full-bloom/) | Hard |
 | [2439-minimize-maximum-of-array](https://github.com/prathameshhire/LeetCode/tree/main/2439-minimize-maximum-of-array/) | Medium |
 | [2448-minimum-cost-to-make-array-equal](https://github.com/prathameshhire/LeetCode/tree/main/2448-minimum-cost-to-make-array-equal/) | Hard |
@@ -248,6 +251,7 @@
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [2106-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/prathameshhire/LeetCode/tree/main/2106-maximum-fruits-harvested-after-at-most-k-steps/) | Hard |
 | [2968-apply-operations-to-maximize-frequency-score](https://github.com/prathameshhire/LeetCode/tree/main/2968-apply-operations-to-maximize-frequency-score/) | Hard |
 ## Queue
 | Problem Name | Difficulty |
