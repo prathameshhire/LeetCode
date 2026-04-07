@@ -24,6 +24,7 @@
 | [1235-maximum-profit-in-job-scheduling](https://github.com/prathameshhire/LeetCode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/prathameshhire/LeetCode/tree/main/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/prathameshhire/LeetCode/tree/main/1482-minimum-number-of-days-to-make-m-bouquets/) | Medium |
+| [1488-avoid-flood-in-the-city](https://github.com/prathameshhire/LeetCode/tree/main/1488-avoid-flood-in-the-city/) | Medium |
 | [1539-kth-missing-positive-number](https://github.com/prathameshhire/LeetCode/tree/main/1539-kth-missing-positive-number/) | Easy |
 | [1552-magnetic-force-between-two-balls](https://github.com/prathameshhire/LeetCode/tree/main/1552-magnetic-force-between-two-balls/) | Medium |
 | [1608-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/prathameshhire/LeetCode/tree/main/1608-special-array-with-x-elements-greater-than-or-equal-x/) | Easy |
@@ -69,6 +70,7 @@
 | [0264-ugly-number-ii](https://github.com/prathameshhire/LeetCode/tree/main/0264-ugly-number-ii/) | Medium |
 | [0433-minimum-genetic-mutation](https://github.com/prathameshhire/LeetCode/tree/main/0433-minimum-genetic-mutation/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/prathameshhire/LeetCode/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
+| [1488-avoid-flood-in-the-city](https://github.com/prathameshhire/LeetCode/tree/main/1488-avoid-flood-in-the-city/) | Medium |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/prathameshhire/LeetCode/tree/main/2251-number-of-flowers-in-full-bloom/) | Hard |
 ## Math
 | Problem Name | Difficulty |
@@ -96,6 +98,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0264-ugly-number-ii](https://github.com/prathameshhire/LeetCode/tree/main/0264-ugly-number-ii/) | Medium |
+| [1488-avoid-flood-in-the-city](https://github.com/prathameshhire/LeetCode/tree/main/1488-avoid-flood-in-the-city/) | Medium |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/prathameshhire/LeetCode/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
@@ -127,6 +130,7 @@
 | [1095-find-in-mountain-array](https://github.com/prathameshhire/LeetCode/tree/main/1095-find-in-mountain-array/) | Hard |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/prathameshhire/LeetCode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/prathameshhire/LeetCode/tree/main/1482-minimum-number-of-days-to-make-m-bouquets/) | Medium |
+| [1488-avoid-flood-in-the-city](https://github.com/prathameshhire/LeetCode/tree/main/1488-avoid-flood-in-the-city/) | Medium |
 | [1539-kth-missing-positive-number](https://github.com/prathameshhire/LeetCode/tree/main/1539-kth-missing-positive-number/) | Easy |
 | [1552-magnetic-force-between-two-balls](https://github.com/prathameshhire/LeetCode/tree/main/1552-magnetic-force-between-two-balls/) | Medium |
 | [1608-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/prathameshhire/LeetCode/tree/main/1608-special-array-with-x-elements-greater-than-or-equal-x/) | Easy |
@@ -228,6 +232,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0826-most-profit-assigning-work](https://github.com/prathameshhire/LeetCode/tree/main/0826-most-profit-assigning-work/) | Medium |
+| [1488-avoid-flood-in-the-city](https://github.com/prathameshhire/LeetCode/tree/main/1488-avoid-flood-in-the-city/) | Medium |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/prathameshhire/LeetCode/tree/main/2064-minimized-maximum-of-products-distributed-to-any-store/) | Medium |
 | [2071-maximum-number-of-tasks-you-can-assign](https://github.com/prathameshhire/LeetCode/tree/main/2071-maximum-number-of-tasks-you-can-assign/) | Hard |
 | [2141-maximum-running-time-of-n-computers](https://github.com/prathameshhire/LeetCode/tree/main/2141-maximum-running-time-of-n-computers/) | Hard |
