@@ -194,6 +194,7 @@
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/prathameshhire/LeetCode/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/prathameshhire/LeetCode/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 | [0834-sum-of-distances-in-tree](https://github.com/prathameshhire/LeetCode/tree/main/0834-sum-of-distances-in-tree/) | Hard |
 | [0841-keys-and-rooms](https://github.com/prathameshhire/LeetCode/tree/main/0841-keys-and-rooms/) | Medium |
@@ -221,6 +222,7 @@
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/prathameshhire/LeetCode/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0834-sum-of-distances-in-tree](https://github.com/prathameshhire/LeetCode/tree/main/0834-sum-of-distances-in-tree/) | Hard |
 ## Interactive
 | Problem Name | Difficulty |
@@ -282,4 +284,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/prathameshhire/LeetCode/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
+## Binary Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/prathameshhire/LeetCode/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 <!---LeetCode Topics End-->
