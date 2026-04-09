@@ -49,6 +49,7 @@
 | [2616-minimize-the-maximum-difference-of-pairs](https://github.com/prathameshhire/LeetCode/tree/main/2616-minimize-the-maximum-difference-of-pairs/) | Medium |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/prathameshhire/LeetCode/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
 | [2968-apply-operations-to-maximize-frequency-score](https://github.com/prathameshhire/LeetCode/tree/main/2968-apply-operations-to-maximize-frequency-score/) | Hard |
+| [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/prathameshhire/LeetCode/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3449-maximize-the-minimum-game-score](https://github.com/prathameshhire/LeetCode/tree/main/3449-maximize-the-minimum-game-score/) | Hard |
 | [3453-separate-squares-i](https://github.com/prathameshhire/LeetCode/tree/main/3453-separate-squares-i/) | Medium |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/prathameshhire/LeetCode/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
@@ -80,6 +81,7 @@
 | [0070-climbing-stairs](https://github.com/prathameshhire/LeetCode/tree/main/0070-climbing-stairs/) | Easy |
 | [0264-ugly-number-ii](https://github.com/prathameshhire/LeetCode/tree/main/0264-ugly-number-ii/) | Medium |
 | [0279-perfect-squares](https://github.com/prathameshhire/LeetCode/tree/main/0279-perfect-squares/) | Medium |
+| [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/prathameshhire/LeetCode/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -102,6 +104,7 @@
 | [0264-ugly-number-ii](https://github.com/prathameshhire/LeetCode/tree/main/0264-ugly-number-ii/) | Medium |
 | [1488-avoid-flood-in-the-city](https://github.com/prathameshhire/LeetCode/tree/main/1488-avoid-flood-in-the-city/) | Medium |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/prathameshhire/LeetCode/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
+| [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/prathameshhire/LeetCode/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -156,6 +159,7 @@
 | [2616-minimize-the-maximum-difference-of-pairs](https://github.com/prathameshhire/LeetCode/tree/main/2616-minimize-the-maximum-difference-of-pairs/) | Medium |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/prathameshhire/LeetCode/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
 | [2968-apply-operations-to-maximize-frequency-score](https://github.com/prathameshhire/LeetCode/tree/main/2968-apply-operations-to-maximize-frequency-score/) | Hard |
+| [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/prathameshhire/LeetCode/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3449-maximize-the-minimum-game-score](https://github.com/prathameshhire/LeetCode/tree/main/3449-maximize-the-minimum-game-score/) | Hard |
 | [3453-separate-squares-i](https://github.com/prathameshhire/LeetCode/tree/main/3453-separate-squares-i/) | Medium |
 ## Sorting
@@ -243,6 +247,7 @@
 | [2448-minimum-cost-to-make-array-equal](https://github.com/prathameshhire/LeetCode/tree/main/2448-minimum-cost-to-make-array-equal/) | Hard |
 | [2560-house-robber-iv](https://github.com/prathameshhire/LeetCode/tree/main/2560-house-robber-iv/) | Medium |
 | [2616-minimize-the-maximum-difference-of-pairs](https://github.com/prathameshhire/LeetCode/tree/main/2616-minimize-the-maximum-difference-of-pairs/) | Medium |
+| [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/prathameshhire/LeetCode/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3449-maximize-the-minimum-game-score](https://github.com/prathameshhire/LeetCode/tree/main/3449-maximize-the-minimum-game-score/) | Hard |
 ## Prefix Sum
 | Problem Name | Difficulty |
