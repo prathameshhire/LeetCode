@@ -107,6 +107,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0264-ugly-number-ii](https://github.com/prathameshhire/LeetCode/tree/main/0264-ugly-number-ii/) | Medium |
+| [0295-find-median-from-data-stream](https://github.com/prathameshhire/LeetCode/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [1488-avoid-flood-in-the-city](https://github.com/prathameshhire/LeetCode/tree/main/1488-avoid-flood-in-the-city/) | Medium |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/prathameshhire/LeetCode/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/prathameshhire/LeetCode/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
@@ -170,6 +171,7 @@
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0295-find-median-from-data-stream](https://github.com/prathameshhire/LeetCode/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/prathameshhire/LeetCode/tree/main/0719-find-k-th-smallest-pair-distance/) | Hard |
 | [0826-most-profit-assigning-work](https://github.com/prathameshhire/LeetCode/tree/main/0826-most-profit-assigning-work/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/prathameshhire/LeetCode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
@@ -237,6 +239,7 @@
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0295-find-median-from-data-stream](https://github.com/prathameshhire/LeetCode/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/prathameshhire/LeetCode/tree/main/0719-find-k-th-smallest-pair-distance/) | Hard |
 | [0826-most-profit-assigning-work](https://github.com/prathameshhire/LeetCode/tree/main/0826-most-profit-assigning-work/) | Medium |
 | [2071-maximum-number-of-tasks-you-can-assign](https://github.com/prathameshhire/LeetCode/tree/main/2071-maximum-number-of-tasks-you-can-assign/) | Hard |
@@ -295,4 +298,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/prathameshhire/LeetCode/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0295-find-median-from-data-stream](https://github.com/prathameshhire/LeetCode/tree/main/0295-find-median-from-data-stream/) | Hard |
+## Data Stream
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0295-find-median-from-data-stream](https://github.com/prathameshhire/LeetCode/tree/main/0295-find-median-from-data-stream/) | Hard |
 <!---LeetCode Topics End-->
