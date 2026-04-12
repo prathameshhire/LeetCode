@@ -29,6 +29,7 @@
 | [1539-kth-missing-positive-number](https://github.com/prathameshhire/LeetCode/tree/main/1539-kth-missing-positive-number/) | Easy |
 | [1552-magnetic-force-between-two-balls](https://github.com/prathameshhire/LeetCode/tree/main/1552-magnetic-force-between-two-balls/) | Medium |
 | [1608-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/prathameshhire/LeetCode/tree/main/1608-special-array-with-x-elements-greater-than-or-equal-x/) | Easy |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/prathameshhire/LeetCode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1760-minimum-limit-of-balls-in-a-bag](https://github.com/prathameshhire/LeetCode/tree/main/1760-minimum-limit-of-balls-in-a-bag/) | Medium |
 | [1870-minimum-speed-to-arrive-on-time](https://github.com/prathameshhire/LeetCode/tree/main/1870-minimum-speed-to-arrive-on-time/) | Medium |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/prathameshhire/LeetCode/tree/main/1926-nearest-exit-from-entrance-in-maze/) | Medium |
@@ -177,6 +178,7 @@
 | [1235-maximum-profit-in-job-scheduling](https://github.com/prathameshhire/LeetCode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1552-magnetic-force-between-two-balls](https://github.com/prathameshhire/LeetCode/tree/main/1552-magnetic-force-between-two-balls/) | Medium |
 | [1608-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/prathameshhire/LeetCode/tree/main/1608-special-array-with-x-elements-greater-than-or-equal-x/) | Easy |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/prathameshhire/LeetCode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [2070-most-beautiful-item-for-each-query](https://github.com/prathameshhire/LeetCode/tree/main/2070-most-beautiful-item-for-each-query/) | Medium |
 | [2071-maximum-number-of-tasks-you-can-assign](https://github.com/prathameshhire/LeetCode/tree/main/2071-maximum-number-of-tasks-you-can-assign/) | Hard |
 | [2141-maximum-running-time-of-n-computers](https://github.com/prathameshhire/LeetCode/tree/main/2141-maximum-running-time-of-n-computers/) | Hard |
@@ -195,6 +197,7 @@
 | ------- | ------- |
 | [0074-search-a-2d-matrix](https://github.com/prathameshhire/LeetCode/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0931-minimum-falling-path-sum](https://github.com/prathameshhire/LeetCode/tree/main/0931-minimum-falling-path-sum/) | Medium |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/prathameshhire/LeetCode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/prathameshhire/LeetCode/tree/main/1926-nearest-exit-from-entrance-in-maze/) | Medium |
 | [1970-last-day-where-you-can-still-cross](https://github.com/prathameshhire/LeetCode/tree/main/1970-last-day-where-you-can-still-cross/) | Hard |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/prathameshhire/LeetCode/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
@@ -250,6 +253,7 @@
 | ------- | ------- |
 | [0826-most-profit-assigning-work](https://github.com/prathameshhire/LeetCode/tree/main/0826-most-profit-assigning-work/) | Medium |
 | [1488-avoid-flood-in-the-city](https://github.com/prathameshhire/LeetCode/tree/main/1488-avoid-flood-in-the-city/) | Medium |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/prathameshhire/LeetCode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/prathameshhire/LeetCode/tree/main/2064-minimized-maximum-of-products-distributed-to-any-store/) | Medium |
 | [2071-maximum-number-of-tasks-you-can-assign](https://github.com/prathameshhire/LeetCode/tree/main/2071-maximum-number-of-tasks-you-can-assign/) | Hard |
 | [2141-maximum-running-time-of-n-computers](https://github.com/prathameshhire/LeetCode/tree/main/2141-maximum-running-time-of-n-computers/) | Hard |
