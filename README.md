@@ -60,6 +60,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0006-zigzag-conversion](https://github.com/prathameshhire/LeetCode/tree/main/0006-zigzag-conversion/) | Medium |
+| [0415-add-strings](https://github.com/prathameshhire/LeetCode/tree/main/0415-add-strings/) | Easy |
 | [0433-minimum-genetic-mutation](https://github.com/prathameshhire/LeetCode/tree/main/0433-minimum-genetic-mutation/) | Medium |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/prathameshhire/LeetCode/tree/main/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
 | [1903-largest-odd-number-in-string](https://github.com/prathameshhire/LeetCode/tree/main/1903-largest-odd-number-in-string/) | Easy |
@@ -89,6 +90,7 @@
 | [0070-climbing-stairs](https://github.com/prathameshhire/LeetCode/tree/main/0070-climbing-stairs/) | Easy |
 | [0264-ugly-number-ii](https://github.com/prathameshhire/LeetCode/tree/main/0264-ugly-number-ii/) | Medium |
 | [0279-perfect-squares](https://github.com/prathameshhire/LeetCode/tree/main/0279-perfect-squares/) | Medium |
+| [0415-add-strings](https://github.com/prathameshhire/LeetCode/tree/main/0415-add-strings/) | Easy |
 | [1903-largest-odd-number-in-string](https://github.com/prathameshhire/LeetCode/tree/main/1903-largest-odd-number-in-string/) | Easy |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/prathameshhire/LeetCode/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 ## Dynamic Programming
@@ -305,6 +307,7 @@
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0415-add-strings](https://github.com/prathameshhire/LeetCode/tree/main/0415-add-strings/) | Easy |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/prathameshhire/LeetCode/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
