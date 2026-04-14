@@ -62,6 +62,7 @@
 | [0006-zigzag-conversion](https://github.com/prathameshhire/LeetCode/tree/main/0006-zigzag-conversion/) | Medium |
 | [0433-minimum-genetic-mutation](https://github.com/prathameshhire/LeetCode/tree/main/0433-minimum-genetic-mutation/) | Medium |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/prathameshhire/LeetCode/tree/main/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
+| [1903-largest-odd-number-in-string](https://github.com/prathameshhire/LeetCode/tree/main/1903-largest-odd-number-in-string/) | Easy |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -88,6 +89,7 @@
 | [0070-climbing-stairs](https://github.com/prathameshhire/LeetCode/tree/main/0070-climbing-stairs/) | Easy |
 | [0264-ugly-number-ii](https://github.com/prathameshhire/LeetCode/tree/main/0264-ugly-number-ii/) | Medium |
 | [0279-perfect-squares](https://github.com/prathameshhire/LeetCode/tree/main/0279-perfect-squares/) | Medium |
+| [1903-largest-odd-number-in-string](https://github.com/prathameshhire/LeetCode/tree/main/1903-largest-odd-number-in-string/) | Easy |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/prathameshhire/LeetCode/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
@@ -259,6 +261,7 @@
 | [0826-most-profit-assigning-work](https://github.com/prathameshhire/LeetCode/tree/main/0826-most-profit-assigning-work/) | Medium |
 | [1488-avoid-flood-in-the-city](https://github.com/prathameshhire/LeetCode/tree/main/1488-avoid-flood-in-the-city/) | Medium |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/prathameshhire/LeetCode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
+| [1903-largest-odd-number-in-string](https://github.com/prathameshhire/LeetCode/tree/main/1903-largest-odd-number-in-string/) | Easy |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/prathameshhire/LeetCode/tree/main/2064-minimized-maximum-of-products-distributed-to-any-store/) | Medium |
 | [2071-maximum-number-of-tasks-you-can-assign](https://github.com/prathameshhire/LeetCode/tree/main/2071-maximum-number-of-tasks-you-can-assign/) | Hard |
 | [2141-maximum-running-time-of-n-computers](https://github.com/prathameshhire/LeetCode/tree/main/2141-maximum-running-time-of-n-computers/) | Hard |
