@@ -1,9 +1,8 @@
 class Solution {
 public:
     bool allZeros(vector<int> &freq) {
-        for(int i : freq) {
-            if(i != 0) return false;
-        }
+        for(int i : freq)             if(i != 0) return false;
+        
         return true;
     }
     vector<int> findAnagrams(string s, string p) {
