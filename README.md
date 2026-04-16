@@ -62,6 +62,7 @@
 | [0006-zigzag-conversion](https://github.com/prathameshhire/LeetCode/tree/main/0006-zigzag-conversion/) | Medium |
 | [0415-add-strings](https://github.com/prathameshhire/LeetCode/tree/main/0415-add-strings/) | Easy |
 | [0433-minimum-genetic-mutation](https://github.com/prathameshhire/LeetCode/tree/main/0433-minimum-genetic-mutation/) | Medium |
+| [0438-find-all-anagrams-in-a-string](https://github.com/prathameshhire/LeetCode/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/prathameshhire/LeetCode/tree/main/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
 | [1903-largest-odd-number-in-string](https://github.com/prathameshhire/LeetCode/tree/main/1903-largest-odd-number-in-string/) | Easy |
 ## Backtracking
@@ -79,6 +80,7 @@
 | ------- | ------- |
 | [0264-ugly-number-ii](https://github.com/prathameshhire/LeetCode/tree/main/0264-ugly-number-ii/) | Medium |
 | [0433-minimum-genetic-mutation](https://github.com/prathameshhire/LeetCode/tree/main/0433-minimum-genetic-mutation/) | Medium |
+| [0438-find-all-anagrams-in-a-string](https://github.com/prathameshhire/LeetCode/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/prathameshhire/LeetCode/tree/main/0904-fruit-into-baskets/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/prathameshhire/LeetCode/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/prathameshhire/LeetCode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
@@ -288,6 +290,7 @@
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0438-find-all-anagrams-in-a-string](https://github.com/prathameshhire/LeetCode/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/prathameshhire/LeetCode/tree/main/0904-fruit-into-baskets/) | Medium |
 | [2106-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/prathameshhire/LeetCode/tree/main/2106-maximum-fruits-harvested-after-at-most-k-steps/) | Hard |
 | [2401-longest-nice-subarray](https://github.com/prathameshhire/LeetCode/tree/main/2401-longest-nice-subarray/) | Medium |
