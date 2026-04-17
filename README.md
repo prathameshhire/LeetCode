@@ -39,6 +39,7 @@
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/prathameshhire/LeetCode/tree/main/2064-minimized-maximum-of-products-distributed-to-any-store/) | Medium |
 | [2070-most-beautiful-item-for-each-query](https://github.com/prathameshhire/LeetCode/tree/main/2070-most-beautiful-item-for-each-query/) | Medium |
 | [2071-maximum-number-of-tasks-you-can-assign](https://github.com/prathameshhire/LeetCode/tree/main/2071-maximum-number-of-tasks-you-can-assign/) | Hard |
+| [2090-k-radius-subarray-averages](https://github.com/prathameshhire/LeetCode/tree/main/2090-k-radius-subarray-averages/) | Medium |
 | [2106-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/prathameshhire/LeetCode/tree/main/2106-maximum-fruits-harvested-after-at-most-k-steps/) | Hard |
 | [2141-maximum-running-time-of-n-computers](https://github.com/prathameshhire/LeetCode/tree/main/2141-maximum-running-time-of-n-computers/) | Hard |
 | [2187-minimum-time-to-complete-trips](https://github.com/prathameshhire/LeetCode/tree/main/2187-minimum-time-to-complete-trips/) | Medium |
@@ -305,6 +306,7 @@
 | [0438-find-all-anagrams-in-a-string](https://github.com/prathameshhire/LeetCode/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/prathameshhire/LeetCode/tree/main/0904-fruit-into-baskets/) | Medium |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/prathameshhire/LeetCode/tree/main/1456-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
+| [2090-k-radius-subarray-averages](https://github.com/prathameshhire/LeetCode/tree/main/2090-k-radius-subarray-averages/) | Medium |
 | [2106-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/prathameshhire/LeetCode/tree/main/2106-maximum-fruits-harvested-after-at-most-k-steps/) | Hard |
 | [2401-longest-nice-subarray](https://github.com/prathameshhire/LeetCode/tree/main/2401-longest-nice-subarray/) | Medium |
 | [2444-count-subarrays-with-fixed-bounds](https://github.com/prathameshhire/LeetCode/tree/main/2444-count-subarrays-with-fixed-bounds/) | Hard |
