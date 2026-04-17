@@ -47,6 +47,7 @@
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/prathameshhire/LeetCode/tree/main/2300-successful-pairs-of-spells-and-potions/) | Medium |
 | [2401-longest-nice-subarray](https://github.com/prathameshhire/LeetCode/tree/main/2401-longest-nice-subarray/) | Medium |
 | [2439-minimize-maximum-of-array](https://github.com/prathameshhire/LeetCode/tree/main/2439-minimize-maximum-of-array/) | Medium |
+| [2444-count-subarrays-with-fixed-bounds](https://github.com/prathameshhire/LeetCode/tree/main/2444-count-subarrays-with-fixed-bounds/) | Hard |
 | [2448-minimum-cost-to-make-array-equal](https://github.com/prathameshhire/LeetCode/tree/main/2448-minimum-cost-to-make-array-equal/) | Hard |
 | [2560-house-robber-iv](https://github.com/prathameshhire/LeetCode/tree/main/2560-house-robber-iv/) | Medium |
 | [2563-count-the-number-of-fair-pairs](https://github.com/prathameshhire/LeetCode/tree/main/2563-count-the-number-of-fair-pairs/) | Medium |
@@ -304,15 +305,18 @@
 | [0904-fruit-into-baskets](https://github.com/prathameshhire/LeetCode/tree/main/0904-fruit-into-baskets/) | Medium |
 | [2106-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/prathameshhire/LeetCode/tree/main/2106-maximum-fruits-harvested-after-at-most-k-steps/) | Hard |
 | [2401-longest-nice-subarray](https://github.com/prathameshhire/LeetCode/tree/main/2401-longest-nice-subarray/) | Medium |
+| [2444-count-subarrays-with-fixed-bounds](https://github.com/prathameshhire/LeetCode/tree/main/2444-count-subarrays-with-fixed-bounds/) | Hard |
 | [2968-apply-operations-to-maximize-frequency-score](https://github.com/prathameshhire/LeetCode/tree/main/2968-apply-operations-to-maximize-frequency-score/) | Hard |
 ## Queue
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2071-maximum-number-of-tasks-you-can-assign](https://github.com/prathameshhire/LeetCode/tree/main/2071-maximum-number-of-tasks-you-can-assign/) | Hard |
+| [2444-count-subarrays-with-fixed-bounds](https://github.com/prathameshhire/LeetCode/tree/main/2444-count-subarrays-with-fixed-bounds/) | Hard |
 ## Monotonic Queue
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2071-maximum-number-of-tasks-you-can-assign](https://github.com/prathameshhire/LeetCode/tree/main/2071-maximum-number-of-tasks-you-can-assign/) | Hard |
+| [2444-count-subarrays-with-fixed-bounds](https://github.com/prathameshhire/LeetCode/tree/main/2444-count-subarrays-with-fixed-bounds/) | Hard |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
