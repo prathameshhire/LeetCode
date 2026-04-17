@@ -62,6 +62,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0006-zigzag-conversion](https://github.com/prathameshhire/LeetCode/tree/main/0006-zigzag-conversion/) | Medium |
+| [0076-minimum-window-substring](https://github.com/prathameshhire/LeetCode/tree/main/0076-minimum-window-substring/) | Hard |
 | [0415-add-strings](https://github.com/prathameshhire/LeetCode/tree/main/0415-add-strings/) | Easy |
 | [0433-minimum-genetic-mutation](https://github.com/prathameshhire/LeetCode/tree/main/0433-minimum-genetic-mutation/) | Medium |
 | [0438-find-all-anagrams-in-a-string](https://github.com/prathameshhire/LeetCode/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
@@ -80,6 +81,7 @@
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0076-minimum-window-substring](https://github.com/prathameshhire/LeetCode/tree/main/0076-minimum-window-substring/) | Hard |
 | [0219-contains-duplicate-ii](https://github.com/prathameshhire/LeetCode/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0264-ugly-number-ii](https://github.com/prathameshhire/LeetCode/tree/main/0264-ugly-number-ii/) | Medium |
 | [0433-minimum-genetic-mutation](https://github.com/prathameshhire/LeetCode/tree/main/0433-minimum-genetic-mutation/) | Medium |
@@ -295,6 +297,7 @@
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0076-minimum-window-substring](https://github.com/prathameshhire/LeetCode/tree/main/0076-minimum-window-substring/) | Hard |
 | [0209-minimum-size-subarray-sum](https://github.com/prathameshhire/LeetCode/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0219-contains-duplicate-ii](https://github.com/prathameshhire/LeetCode/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0438-find-all-anagrams-in-a-string](https://github.com/prathameshhire/LeetCode/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
