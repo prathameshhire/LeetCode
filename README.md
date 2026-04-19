@@ -28,6 +28,7 @@
 | [1095-find-in-mountain-array](https://github.com/prathameshhire/LeetCode/tree/main/1095-find-in-mountain-array/) | Hard |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/prathameshhire/LeetCode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/prathameshhire/LeetCode/tree/main/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
+| [1470-shuffle-the-array](https://github.com/prathameshhire/LeetCode/tree/main/1470-shuffle-the-array/) | Easy |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/prathameshhire/LeetCode/tree/main/1482-minimum-number-of-days-to-make-m-bouquets/) | Medium |
 | [1488-avoid-flood-in-the-city](https://github.com/prathameshhire/LeetCode/tree/main/1488-avoid-flood-in-the-city/) | Medium |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/prathameshhire/LeetCode/tree/main/1493-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
