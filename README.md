@@ -39,6 +39,7 @@
 | [1838-frequency-of-the-most-frequent-element](https://github.com/prathameshhire/LeetCode/tree/main/1838-frequency-of-the-most-frequent-element/) | Medium |
 | [1870-minimum-speed-to-arrive-on-time](https://github.com/prathameshhire/LeetCode/tree/main/1870-minimum-speed-to-arrive-on-time/) | Medium |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/prathameshhire/LeetCode/tree/main/1926-nearest-exit-from-entrance-in-maze/) | Medium |
+| [1929-concatenation-of-array](https://github.com/prathameshhire/LeetCode/tree/main/1929-concatenation-of-array/) | Easy |
 | [1970-last-day-where-you-can-still-cross](https://github.com/prathameshhire/LeetCode/tree/main/1970-last-day-where-you-can-still-cross/) | Hard |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/prathameshhire/LeetCode/tree/main/2064-minimized-maximum-of-products-distributed-to-any-store/) | Medium |
 | [2070-most-beautiful-item-for-each-query](https://github.com/prathameshhire/LeetCode/tree/main/2070-most-beautiful-item-for-each-query/) | Medium |
@@ -359,6 +360,7 @@
 | ------- | ------- |
 | [0258-add-digits](https://github.com/prathameshhire/LeetCode/tree/main/0258-add-digits/) | Easy |
 | [0415-add-strings](https://github.com/prathameshhire/LeetCode/tree/main/0415-add-strings/) | Easy |
+| [1929-concatenation-of-array](https://github.com/prathameshhire/LeetCode/tree/main/1929-concatenation-of-array/) | Easy |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/prathameshhire/LeetCode/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
