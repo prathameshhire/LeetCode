@@ -67,6 +67,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0006-zigzag-conversion](https://github.com/prathameshhire/LeetCode/tree/main/0006-zigzag-conversion/) | Medium |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/prathameshhire/LeetCode/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0076-minimum-window-substring](https://github.com/prathameshhire/LeetCode/tree/main/0076-minimum-window-substring/) | Hard |
 | [0415-add-strings](https://github.com/prathameshhire/LeetCode/tree/main/0415-add-strings/) | Easy |
 | [0433-minimum-genetic-mutation](https://github.com/prathameshhire/LeetCode/tree/main/0433-minimum-genetic-mutation/) | Medium |
@@ -271,6 +272,7 @@
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/prathameshhire/LeetCode/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0295-find-median-from-data-stream](https://github.com/prathameshhire/LeetCode/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/prathameshhire/LeetCode/tree/main/0719-find-k-th-smallest-pair-distance/) | Hard |
 | [0826-most-profit-assigning-work](https://github.com/prathameshhire/LeetCode/tree/main/0826-most-profit-assigning-work/) | Medium |
@@ -361,4 +363,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0295-find-median-from-data-stream](https://github.com/prathameshhire/LeetCode/tree/main/0295-find-median-from-data-stream/) | Hard |
+## String Matching
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/prathameshhire/LeetCode/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 <!---LeetCode Topics End-->
