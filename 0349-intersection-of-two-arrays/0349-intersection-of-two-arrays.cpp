@@ -7,7 +7,6 @@ public:
         for(int j : nums2) {
             if(st.find(j) != st.end()) result.insert(j);
         }
-        vector<int> res (result.begin(), result.end());
-        return res;
+        return vector<int> (result.begin(), result.end());
     }
 };
