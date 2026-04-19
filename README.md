@@ -17,6 +17,7 @@
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/prathameshhire/LeetCode/tree/main/0309-best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
 | [0349-intersection-of-two-arrays](https://github.com/prathameshhire/LeetCode/tree/main/0349-intersection-of-two-arrays/) | Easy |
 | [0446-arithmetic-slices-ii-subsequence](https://github.com/prathameshhire/LeetCode/tree/main/0446-arithmetic-slices-ii-subsequence/) | Hard |
+| [0485-max-consecutive-ones](https://github.com/prathameshhire/LeetCode/tree/main/0485-max-consecutive-ones/) | Easy |
 | [0540-single-element-in-a-sorted-array](https://github.com/prathameshhire/LeetCode/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
 | [0704-binary-search](https://github.com/prathameshhire/LeetCode/tree/main/0704-binary-search/) | Easy |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/prathameshhire/LeetCode/tree/main/0719-find-k-th-smallest-pair-distance/) | Hard |
