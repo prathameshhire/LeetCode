@@ -3,7 +3,7 @@ public:
     vector<string> buildArray(vector<int>& target, int n) {
         vector<string> operations;
         int j = 0;
-        for(int i = 1; i<=n; i++) {
+        for(int i = 1; i<=n; ++i) {
             if(j < target.size() && target[j] == i) {
                 operations.push_back("Push");
                 j++;
