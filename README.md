@@ -21,6 +21,7 @@
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/prathameshhire/LeetCode/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
 | [0485-max-consecutive-ones](https://github.com/prathameshhire/LeetCode/tree/main/0485-max-consecutive-ones/) | Easy |
 | [0540-single-element-in-a-sorted-array](https://github.com/prathameshhire/LeetCode/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
+| [0636-exclusive-time-of-functions](https://github.com/prathameshhire/LeetCode/tree/main/0636-exclusive-time-of-functions/) | Medium |
 | [0645-set-mismatch](https://github.com/prathameshhire/LeetCode/tree/main/0645-set-mismatch/) | Easy |
 | [0704-binary-search](https://github.com/prathameshhire/LeetCode/tree/main/0704-binary-search/) | Easy |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/prathameshhire/LeetCode/tree/main/0719-find-k-th-smallest-pair-distance/) | Hard |
@@ -414,5 +415,6 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/prathameshhire/LeetCode/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
+| [0636-exclusive-time-of-functions](https://github.com/prathameshhire/LeetCode/tree/main/0636-exclusive-time-of-functions/) | Medium |
 | [1441-build-an-array-with-stack-operations](https://github.com/prathameshhire/LeetCode/tree/main/1441-build-an-array-with-stack-operations/) | Medium |
 <!---LeetCode Topics End-->
