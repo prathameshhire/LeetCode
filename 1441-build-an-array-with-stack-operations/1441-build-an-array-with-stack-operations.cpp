@@ -4,7 +4,7 @@ public:
         vector<string> operations;
         int j = 0;
         for(int i = 1; i<=n; i++) {
-            if(j < target.size() && target[j] == i) {
+            if(target[j] == i) {
                 operations.push_back("Push");
                 j++;
                 if(j == target.size()) break;
