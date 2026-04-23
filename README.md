@@ -32,6 +32,7 @@
 | [0852-peak-index-in-a-mountain-array](https://github.com/prathameshhire/LeetCode/tree/main/0852-peak-index-in-a-mountain-array/) | Medium |
 | [0875-koko-eating-bananas](https://github.com/prathameshhire/LeetCode/tree/main/0875-koko-eating-bananas/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/prathameshhire/LeetCode/tree/main/0904-fruit-into-baskets/) | Medium |
+| [0930-binary-subarrays-with-sum](https://github.com/prathameshhire/LeetCode/tree/main/0930-binary-subarrays-with-sum/) | Medium |
 | [0931-minimum-falling-path-sum](https://github.com/prathameshhire/LeetCode/tree/main/0931-minimum-falling-path-sum/) | Medium |
 | [0941-valid-mountain-array](https://github.com/prathameshhire/LeetCode/tree/main/0941-valid-mountain-array/) | Easy |
 | [1095-find-in-mountain-array](https://github.com/prathameshhire/LeetCode/tree/main/1095-find-in-mountain-array/) | Hard |
@@ -117,6 +118,7 @@
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/prathameshhire/LeetCode/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
 | [0645-set-mismatch](https://github.com/prathameshhire/LeetCode/tree/main/0645-set-mismatch/) | Easy |
 | [0904-fruit-into-baskets](https://github.com/prathameshhire/LeetCode/tree/main/0904-fruit-into-baskets/) | Medium |
+| [0930-binary-subarrays-with-sum](https://github.com/prathameshhire/LeetCode/tree/main/0930-binary-subarrays-with-sum/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/prathameshhire/LeetCode/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/prathameshhire/LeetCode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/prathameshhire/LeetCode/tree/main/1365-how-many-numbers-are-smaller-than-the-current-number/) | Easy |
@@ -332,6 +334,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/prathameshhire/LeetCode/tree/main/0209-minimum-size-subarray-sum/) | Medium |
+| [0930-binary-subarrays-with-sum](https://github.com/prathameshhire/LeetCode/tree/main/0930-binary-subarrays-with-sum/) | Medium |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/prathameshhire/LeetCode/tree/main/1838-frequency-of-the-most-frequent-element/) | Medium |
 | [2024-maximize-the-confusion-of-an-exam](https://github.com/prathameshhire/LeetCode/tree/main/2024-maximize-the-confusion-of-an-exam/) | Medium |
 | [2106-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/prathameshhire/LeetCode/tree/main/2106-maximum-fruits-harvested-after-at-most-k-steps/) | Hard |
@@ -352,6 +355,7 @@
 | [0239-sliding-window-maximum](https://github.com/prathameshhire/LeetCode/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0438-find-all-anagrams-in-a-string](https://github.com/prathameshhire/LeetCode/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/prathameshhire/LeetCode/tree/main/0904-fruit-into-baskets/) | Medium |
+| [0930-binary-subarrays-with-sum](https://github.com/prathameshhire/LeetCode/tree/main/0930-binary-subarrays-with-sum/) | Medium |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/prathameshhire/LeetCode/tree/main/1456-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/prathameshhire/LeetCode/tree/main/1493-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/prathameshhire/LeetCode/tree/main/1838-frequency-of-the-most-frequent-element/) | Medium |
