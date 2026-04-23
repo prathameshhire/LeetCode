@@ -92,6 +92,7 @@
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/prathameshhire/LeetCode/tree/main/1456-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
 | [1903-largest-odd-number-in-string](https://github.com/prathameshhire/LeetCode/tree/main/1903-largest-odd-number-in-string/) | Easy |
 | [2024-maximize-the-confusion-of-an-exam](https://github.com/prathameshhire/LeetCode/tree/main/2024-maximize-the-confusion-of-an-exam/) | Medium |
+| [2953-count-complete-substrings](https://github.com/prathameshhire/LeetCode/tree/main/2953-count-complete-substrings/) | Hard |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -121,6 +122,7 @@
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/prathameshhire/LeetCode/tree/main/1365-how-many-numbers-are-smaller-than-the-current-number/) | Easy |
 | [1488-avoid-flood-in-the-city](https://github.com/prathameshhire/LeetCode/tree/main/1488-avoid-flood-in-the-city/) | Medium |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/prathameshhire/LeetCode/tree/main/2251-number-of-flowers-in-full-bloom/) | Hard |
+| [2953-count-complete-substrings](https://github.com/prathameshhire/LeetCode/tree/main/2953-count-complete-substrings/) | Hard |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -358,6 +360,7 @@
 | [2106-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/prathameshhire/LeetCode/tree/main/2106-maximum-fruits-harvested-after-at-most-k-steps/) | Hard |
 | [2401-longest-nice-subarray](https://github.com/prathameshhire/LeetCode/tree/main/2401-longest-nice-subarray/) | Medium |
 | [2444-count-subarrays-with-fixed-bounds](https://github.com/prathameshhire/LeetCode/tree/main/2444-count-subarrays-with-fixed-bounds/) | Hard |
+| [2953-count-complete-substrings](https://github.com/prathameshhire/LeetCode/tree/main/2953-count-complete-substrings/) | Hard |
 | [2968-apply-operations-to-maximize-frequency-score](https://github.com/prathameshhire/LeetCode/tree/main/2968-apply-operations-to-maximize-frequency-score/) | Hard |
 ## Queue
 | Problem Name | Difficulty |
