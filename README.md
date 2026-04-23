@@ -33,6 +33,7 @@
 | [0875-koko-eating-bananas](https://github.com/prathameshhire/LeetCode/tree/main/0875-koko-eating-bananas/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/prathameshhire/LeetCode/tree/main/0904-fruit-into-baskets/) | Medium |
 | [0931-minimum-falling-path-sum](https://github.com/prathameshhire/LeetCode/tree/main/0931-minimum-falling-path-sum/) | Medium |
+| [0941-valid-mountain-array](https://github.com/prathameshhire/LeetCode/tree/main/0941-valid-mountain-array/) | Easy |
 | [1095-find-in-mountain-array](https://github.com/prathameshhire/LeetCode/tree/main/1095-find-in-mountain-array/) | Hard |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/prathameshhire/LeetCode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/prathameshhire/LeetCode/tree/main/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
