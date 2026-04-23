@@ -9,7 +9,7 @@ public:
             if(arr[i] == arr[i-1]) return false;
             else if(i != 1 && arr[i] < arr[i-1]) break;
         }
-        if(i == n && arr[n-1] >= arr[n-2]) return false;
+        if(i == n) return false;
         for(;i<n; i++) {
             if(arr[i] >= arr[i-1]) return false;
         }
