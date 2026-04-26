@@ -75,6 +75,7 @@
 | [2594-minimum-time-to-repair-cars](https://github.com/prathameshhire/LeetCode/tree/main/2594-minimum-time-to-repair-cars/) | Medium |
 | [2616-minimize-the-maximum-difference-of-pairs](https://github.com/prathameshhire/LeetCode/tree/main/2616-minimize-the-maximum-difference-of-pairs/) | Medium |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/prathameshhire/LeetCode/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/prathameshhire/LeetCode/tree/main/2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 | [2968-apply-operations-to-maximize-frequency-score](https://github.com/prathameshhire/LeetCode/tree/main/2968-apply-operations-to-maximize-frequency-score/) | Hard |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/prathameshhire/LeetCode/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3449-maximize-the-minimum-game-score](https://github.com/prathameshhire/LeetCode/tree/main/3449-maximize-the-minimum-game-score/) | Hard |
@@ -126,6 +127,7 @@
 | [1488-avoid-flood-in-the-city](https://github.com/prathameshhire/LeetCode/tree/main/1488-avoid-flood-in-the-city/) | Medium |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/prathameshhire/LeetCode/tree/main/2251-number-of-flowers-in-full-bloom/) | Hard |
 | [2953-count-complete-substrings](https://github.com/prathameshhire/LeetCode/tree/main/2953-count-complete-substrings/) | Hard |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/prathameshhire/LeetCode/tree/main/2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -369,6 +371,7 @@
 | [2401-longest-nice-subarray](https://github.com/prathameshhire/LeetCode/tree/main/2401-longest-nice-subarray/) | Medium |
 | [2444-count-subarrays-with-fixed-bounds](https://github.com/prathameshhire/LeetCode/tree/main/2444-count-subarrays-with-fixed-bounds/) | Hard |
 | [2953-count-complete-substrings](https://github.com/prathameshhire/LeetCode/tree/main/2953-count-complete-substrings/) | Hard |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/prathameshhire/LeetCode/tree/main/2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 | [2968-apply-operations-to-maximize-frequency-score](https://github.com/prathameshhire/LeetCode/tree/main/2968-apply-operations-to-maximize-frequency-score/) | Hard |
 ## Queue
 | Problem Name | Difficulty |
