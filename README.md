@@ -37,6 +37,7 @@
 | [0931-minimum-falling-path-sum](https://github.com/prathameshhire/LeetCode/tree/main/0931-minimum-falling-path-sum/) | Medium |
 | [0941-valid-mountain-array](https://github.com/prathameshhire/LeetCode/tree/main/0941-valid-mountain-array/) | Easy |
 | [0992-subarrays-with-k-different-integers](https://github.com/prathameshhire/LeetCode/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
+| [1052-grumpy-bookstore-owner](https://github.com/prathameshhire/LeetCode/tree/main/1052-grumpy-bookstore-owner/) | Medium |
 | [1095-find-in-mountain-array](https://github.com/prathameshhire/LeetCode/tree/main/1095-find-in-mountain-array/) | Hard |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/prathameshhire/LeetCode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/prathameshhire/LeetCode/tree/main/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
@@ -371,6 +372,7 @@
 | [0904-fruit-into-baskets](https://github.com/prathameshhire/LeetCode/tree/main/0904-fruit-into-baskets/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/prathameshhire/LeetCode/tree/main/0930-binary-subarrays-with-sum/) | Medium |
 | [0992-subarrays-with-k-different-integers](https://github.com/prathameshhire/LeetCode/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
+| [1052-grumpy-bookstore-owner](https://github.com/prathameshhire/LeetCode/tree/main/1052-grumpy-bookstore-owner/) | Medium |
 | [1208-get-equal-substrings-within-budget](https://github.com/prathameshhire/LeetCode/tree/main/1208-get-equal-substrings-within-budget/) | Medium |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/prathameshhire/LeetCode/tree/main/1456-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/prathameshhire/LeetCode/tree/main/1493-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
