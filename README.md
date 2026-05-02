@@ -19,6 +19,7 @@
 | [0239-sliding-window-maximum](https://github.com/prathameshhire/LeetCode/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/prathameshhire/LeetCode/tree/main/0309-best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
 | [0349-intersection-of-two-arrays](https://github.com/prathameshhire/LeetCode/tree/main/0349-intersection-of-two-arrays/) | Easy |
+| [0396-rotate-function](https://github.com/prathameshhire/LeetCode/tree/main/0396-rotate-function/) | Medium |
 | [0446-arithmetic-slices-ii-subsequence](https://github.com/prathameshhire/LeetCode/tree/main/0446-arithmetic-slices-ii-subsequence/) | Hard |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/prathameshhire/LeetCode/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
 | [0485-max-consecutive-ones](https://github.com/prathameshhire/LeetCode/tree/main/0485-max-consecutive-ones/) | Easy |
@@ -144,6 +145,7 @@
 | [0258-add-digits](https://github.com/prathameshhire/LeetCode/tree/main/0258-add-digits/) | Easy |
 | [0264-ugly-number-ii](https://github.com/prathameshhire/LeetCode/tree/main/0264-ugly-number-ii/) | Medium |
 | [0279-perfect-squares](https://github.com/prathameshhire/LeetCode/tree/main/0279-perfect-squares/) | Medium |
+| [0396-rotate-function](https://github.com/prathameshhire/LeetCode/tree/main/0396-rotate-function/) | Medium |
 | [0415-add-strings](https://github.com/prathameshhire/LeetCode/tree/main/0415-add-strings/) | Easy |
 | [1903-largest-odd-number-in-string](https://github.com/prathameshhire/LeetCode/tree/main/1903-largest-odd-number-in-string/) | Easy |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/prathameshhire/LeetCode/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
@@ -155,6 +157,7 @@
 | [0264-ugly-number-ii](https://github.com/prathameshhire/LeetCode/tree/main/0264-ugly-number-ii/) | Medium |
 | [0279-perfect-squares](https://github.com/prathameshhire/LeetCode/tree/main/0279-perfect-squares/) | Medium |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/prathameshhire/LeetCode/tree/main/0309-best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
+| [0396-rotate-function](https://github.com/prathameshhire/LeetCode/tree/main/0396-rotate-function/) | Medium |
 | [0446-arithmetic-slices-ii-subsequence](https://github.com/prathameshhire/LeetCode/tree/main/0446-arithmetic-slices-ii-subsequence/) | Hard |
 | [0790-domino-and-tromino-tiling](https://github.com/prathameshhire/LeetCode/tree/main/0790-domino-and-tromino-tiling/) | Medium |
 | [0834-sum-of-distances-in-tree](https://github.com/prathameshhire/LeetCode/tree/main/0834-sum-of-distances-in-tree/) | Hard |
