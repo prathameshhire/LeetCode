@@ -9,7 +9,7 @@ public:
             F += i*nums[i];
         }
         int result = F;
-        for(int i = 0; i<=n-1; i++) {
+        for(int i = 0; i<n-1; i++) {
             int newF = F + sum - n*nums[n-1-i];
             result = max(result, newF);
             F = newF;
