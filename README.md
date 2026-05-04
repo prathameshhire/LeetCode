@@ -7,6 +7,7 @@
 | ------- | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/prathameshhire/LeetCode/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/prathameshhire/LeetCode/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
+| [0048-rotate-image](https://github.com/prathameshhire/LeetCode/tree/main/0048-rotate-image/) | Medium |
 | [0066-plus-one](https://github.com/prathameshhire/LeetCode/tree/main/0066-plus-one/) | Easy |
 | [0074-search-a-2d-matrix](https://github.com/prathameshhire/LeetCode/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/prathameshhire/LeetCode/tree/main/0081-search-in-rotated-sorted-array-ii/) | Medium |
@@ -140,6 +141,7 @@
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0048-rotate-image](https://github.com/prathameshhire/LeetCode/tree/main/0048-rotate-image/) | Medium |
 | [0066-plus-one](https://github.com/prathameshhire/LeetCode/tree/main/0066-plus-one/) | Easy |
 | [0070-climbing-stairs](https://github.com/prathameshhire/LeetCode/tree/main/0070-climbing-stairs/) | Easy |
 | [0150-evaluate-reverse-polish-notation](https://github.com/prathameshhire/LeetCode/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
@@ -274,6 +276,7 @@
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0048-rotate-image](https://github.com/prathameshhire/LeetCode/tree/main/0048-rotate-image/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/prathameshhire/LeetCode/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0931-minimum-falling-path-sum](https://github.com/prathameshhire/LeetCode/tree/main/0931-minimum-falling-path-sum/) | Medium |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/prathameshhire/LeetCode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
