@@ -89,6 +89,7 @@
 | [3449-maximize-the-minimum-game-score](https://github.com/prathameshhire/LeetCode/tree/main/3449-maximize-the-minimum-game-score/) | Hard |
 | [3453-separate-squares-i](https://github.com/prathameshhire/LeetCode/tree/main/3453-separate-squares-i/) | Medium |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/prathameshhire/LeetCode/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
+| [3660-jump-game-ix](https://github.com/prathameshhire/LeetCode/tree/main/3660-jump-game-ix/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -173,6 +174,7 @@
 | [2439-minimize-maximum-of-array](https://github.com/prathameshhire/LeetCode/tree/main/2439-minimize-maximum-of-array/) | Medium |
 | [2560-house-robber-iv](https://github.com/prathameshhire/LeetCode/tree/main/2560-house-robber-iv/) | Medium |
 | [2616-minimize-the-maximum-difference-of-pairs](https://github.com/prathameshhire/LeetCode/tree/main/2616-minimize-the-maximum-difference-of-pairs/) | Medium |
+| [3660-jump-game-ix](https://github.com/prathameshhire/LeetCode/tree/main/3660-jump-game-ix/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
