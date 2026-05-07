@@ -58,6 +58,7 @@
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/prathameshhire/LeetCode/tree/main/1752-check-if-array-is-sorted-and-rotated/) | Easy |
 | [1760-minimum-limit-of-balls-in-a-bag](https://github.com/prathameshhire/LeetCode/tree/main/1760-minimum-limit-of-balls-in-a-bag/) | Medium |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/prathameshhire/LeetCode/tree/main/1838-frequency-of-the-most-frequent-element/) | Medium |
+| [1861-rotating-the-box](https://github.com/prathameshhire/LeetCode/tree/main/1861-rotating-the-box/) | Medium |
 | [1870-minimum-speed-to-arrive-on-time](https://github.com/prathameshhire/LeetCode/tree/main/1870-minimum-speed-to-arrive-on-time/) | Medium |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/prathameshhire/LeetCode/tree/main/1926-nearest-exit-from-entrance-in-maze/) | Medium |
 | [1929-concatenation-of-array](https://github.com/prathameshhire/LeetCode/tree/main/1929-concatenation-of-array/) | Easy |
@@ -280,6 +281,7 @@
 | [0074-search-a-2d-matrix](https://github.com/prathameshhire/LeetCode/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0931-minimum-falling-path-sum](https://github.com/prathameshhire/LeetCode/tree/main/0931-minimum-falling-path-sum/) | Medium |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/prathameshhire/LeetCode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
+| [1861-rotating-the-box](https://github.com/prathameshhire/LeetCode/tree/main/1861-rotating-the-box/) | Medium |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/prathameshhire/LeetCode/tree/main/1926-nearest-exit-from-entrance-in-maze/) | Medium |
 | [1970-last-day-where-you-can-still-cross](https://github.com/prathameshhire/LeetCode/tree/main/1970-last-day-where-you-can-still-cross/) | Hard |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/prathameshhire/LeetCode/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
@@ -331,6 +333,7 @@
 | [0349-intersection-of-two-arrays](https://github.com/prathameshhire/LeetCode/tree/main/0349-intersection-of-two-arrays/) | Easy |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/prathameshhire/LeetCode/tree/main/0719-find-k-th-smallest-pair-distance/) | Hard |
 | [0826-most-profit-assigning-work](https://github.com/prathameshhire/LeetCode/tree/main/0826-most-profit-assigning-work/) | Medium |
+| [1861-rotating-the-box](https://github.com/prathameshhire/LeetCode/tree/main/1861-rotating-the-box/) | Medium |
 | [2071-maximum-number-of-tasks-you-can-assign](https://github.com/prathameshhire/LeetCode/tree/main/2071-maximum-number-of-tasks-you-can-assign/) | Hard |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/prathameshhire/LeetCode/tree/main/2300-successful-pairs-of-spells-and-potions/) | Medium |
 | [2563-count-the-number-of-fair-pairs](https://github.com/prathameshhire/LeetCode/tree/main/2563-count-the-number-of-fair-pairs/) | Medium |
