@@ -78,6 +78,7 @@
 | [2439-minimize-maximum-of-array](https://github.com/prathameshhire/LeetCode/tree/main/2439-minimize-maximum-of-array/) | Medium |
 | [2444-count-subarrays-with-fixed-bounds](https://github.com/prathameshhire/LeetCode/tree/main/2444-count-subarrays-with-fixed-bounds/) | Hard |
 | [2448-minimum-cost-to-make-array-equal](https://github.com/prathameshhire/LeetCode/tree/main/2448-minimum-cost-to-make-array-equal/) | Hard |
+| [2553-separate-the-digits-in-an-array](https://github.com/prathameshhire/LeetCode/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
 | [2560-house-robber-iv](https://github.com/prathameshhire/LeetCode/tree/main/2560-house-robber-iv/) | Medium |
 | [2563-count-the-number-of-fair-pairs](https://github.com/prathameshhire/LeetCode/tree/main/2563-count-the-number-of-fair-pairs/) | Medium |
 | [2594-minimum-time-to-repair-cars](https://github.com/prathameshhire/LeetCode/tree/main/2594-minimum-time-to-repair-cars/) | Medium |
@@ -431,6 +432,7 @@
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/prathameshhire/LeetCode/tree/main/1700-number-of-students-unable-to-eat-lunch/) | Easy |
 | [1914-cyclically-rotating-a-grid](https://github.com/prathameshhire/LeetCode/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
 | [1929-concatenation-of-array](https://github.com/prathameshhire/LeetCode/tree/main/1929-concatenation-of-array/) | Easy |
+| [2553-separate-the-digits-in-an-array](https://github.com/prathameshhire/LeetCode/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/prathameshhire/LeetCode/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
