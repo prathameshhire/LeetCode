@@ -54,6 +54,7 @@
 | [1552-magnetic-force-between-two-balls](https://github.com/prathameshhire/LeetCode/tree/main/1552-magnetic-force-between-two-balls/) | Medium |
 | [1608-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/prathameshhire/LeetCode/tree/main/1608-special-array-with-x-elements-greater-than-or-equal-x/) | Easy |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/prathameshhire/LeetCode/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
+| [1674-minimum-moves-to-make-array-complementary](https://github.com/prathameshhire/LeetCode/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/prathameshhire/LeetCode/tree/main/1700-number-of-students-unable-to-eat-lunch/) | Easy |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/prathameshhire/LeetCode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/prathameshhire/LeetCode/tree/main/1752-check-if-array-is-sorted-and-rotated/) | Easy |
@@ -141,6 +142,7 @@
 | [0992-subarrays-with-k-different-integers](https://github.com/prathameshhire/LeetCode/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/prathameshhire/LeetCode/tree/main/1365-how-many-numbers-are-smaller-than-the-current-number/) | Easy |
 | [1488-avoid-flood-in-the-city](https://github.com/prathameshhire/LeetCode/tree/main/1488-avoid-flood-in-the-city/) | Medium |
+| [1674-minimum-moves-to-make-array-complementary](https://github.com/prathameshhire/LeetCode/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/prathameshhire/LeetCode/tree/main/2251-number-of-flowers-in-full-bloom/) | Hard |
 | [2953-count-complete-substrings](https://github.com/prathameshhire/LeetCode/tree/main/2953-count-complete-substrings/) | Hard |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/prathameshhire/LeetCode/tree/main/2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
@@ -371,6 +373,7 @@
 | [0713-subarray-product-less-than-k](https://github.com/prathameshhire/LeetCode/tree/main/0713-subarray-product-less-than-k/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/prathameshhire/LeetCode/tree/main/0930-binary-subarrays-with-sum/) | Medium |
 | [1208-get-equal-substrings-within-budget](https://github.com/prathameshhire/LeetCode/tree/main/1208-get-equal-substrings-within-budget/) | Medium |
+| [1674-minimum-moves-to-make-array-complementary](https://github.com/prathameshhire/LeetCode/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/prathameshhire/LeetCode/tree/main/1838-frequency-of-the-most-frequent-element/) | Medium |
 | [2024-maximize-the-confusion-of-an-exam](https://github.com/prathameshhire/LeetCode/tree/main/2024-maximize-the-confusion-of-an-exam/) | Medium |
 | [2106-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/prathameshhire/LeetCode/tree/main/2106-maximum-fruits-harvested-after-at-most-k-steps/) | Hard |
