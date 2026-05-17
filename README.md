@@ -44,6 +44,7 @@
 | [1095-find-in-mountain-array](https://github.com/prathameshhire/LeetCode/tree/main/1095-find-in-mountain-array/) | Hard |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/prathameshhire/LeetCode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/prathameshhire/LeetCode/tree/main/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
+| [1306-jump-game-iii](https://github.com/prathameshhire/LeetCode/tree/main/1306-jump-game-iii/) | Medium |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/prathameshhire/LeetCode/tree/main/1365-how-many-numbers-are-smaller-than-the-current-number/) | Easy |
 | [1441-build-an-array-with-stack-operations](https://github.com/prathameshhire/LeetCode/tree/main/1441-build-an-array-with-stack-operations/) | Medium |
 | [1470-shuffle-the-array](https://github.com/prathameshhire/LeetCode/tree/main/1470-shuffle-the-array/) | Easy |
@@ -203,6 +204,7 @@
 | [0841-keys-and-rooms](https://github.com/prathameshhire/LeetCode/tree/main/0841-keys-and-rooms/) | Medium |
 | [0886-possible-bipartition](https://github.com/prathameshhire/LeetCode/tree/main/0886-possible-bipartition/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/prathameshhire/LeetCode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
+| [1306-jump-game-iii](https://github.com/prathameshhire/LeetCode/tree/main/1306-jump-game-iii/) | Medium |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/prathameshhire/LeetCode/tree/main/1926-nearest-exit-from-entrance-in-maze/) | Medium |
 | [1970-last-day-where-you-can-still-cross](https://github.com/prathameshhire/LeetCode/tree/main/1970-last-day-where-you-can-still-cross/) | Hard |
 | [1971-find-if-path-exists-in-graph](https://github.com/prathameshhire/LeetCode/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
@@ -311,6 +313,7 @@
 | [0886-possible-bipartition](https://github.com/prathameshhire/LeetCode/tree/main/0886-possible-bipartition/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/prathameshhire/LeetCode/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/prathameshhire/LeetCode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
+| [1306-jump-game-iii](https://github.com/prathameshhire/LeetCode/tree/main/1306-jump-game-iii/) | Medium |
 | [1970-last-day-where-you-can-still-cross](https://github.com/prathameshhire/LeetCode/tree/main/1970-last-day-where-you-can-still-cross/) | Hard |
 | [1971-find-if-path-exists-in-graph](https://github.com/prathameshhire/LeetCode/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 ## Union-Find
