@@ -1,28 +1,42 @@
 class Solution {
 public:
-    int n;
-    int t[1001];
-    int solve(vector<int> &arr, int i, int d) {
-        int result = 1;
-        if(t[i] != -1) return t[i];
-        for(int j = i-1; j >= max(i-d, 0); j--) {
-            if(arr[j] >= arr[i]) break;
-            result = max(result, 1+solve(arr, j, d));
-        }
-        for(int j = i+1; j <= min(i+d, n-1); j++) {
-            if(arr[j] >= arr[i]) break;
-            result = max(result, 1+solve(arr, j, d));
-        }
-        return t[i] = result;
-    }
-
     int maxJumps(vector<int>& arr, int d) {
-        memset(t, -1, sizeof(t));
-        int result = 1;
-        n = arr.size();
-        for(int i = 0; i<n; i++) {
-            result = max(result, solve(arr, i, d));
+        int n = arr.size();
+        // t[i] = maximum jumps starting from index i
+        vector<int> t(n, 1);
+
+        /*
+            In recursion + memoization:
+            solve(i) depends on smaller elements only.
+            So in bottom-up, process smaller values first.
+        */
+        vector<pair<int, int>> vec;
+        for (int i = 0; i < n; i++) {
+            vec.push_back({arr[i], i});
         }
-        return result;
+        sort(begin(vec), end(vec));
+
+        for (auto& it : vec) {
+            int val = it.first;
+            int i   = it.second;
+
+            // move left
+            for (int j = i - 1; j >= max(0, i - d); j--) {
+                // same breaking condition
+                if (arr[j] >= arr[i])
+                    break;
+                t[i] = max(t[i], 1 + t[j]);
+            }
+
+            // move right
+            for (int j = i + 1; j <= min(n - 1, i + d); j++) {
+                // same breaking condition
+                if (arr[j] >= arr[i])
+                    break;
+                t[i] = max(t[i], 1 + t[j]);
+            }
+        }
+
+        return *max_element(begin(t), end(t));
     }
 };
