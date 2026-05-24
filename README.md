@@ -45,6 +45,7 @@
 | [1235-maximum-profit-in-job-scheduling](https://github.com/prathameshhire/LeetCode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/prathameshhire/LeetCode/tree/main/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
 | [1306-jump-game-iii](https://github.com/prathameshhire/LeetCode/tree/main/1306-jump-game-iii/) | Medium |
+| [1340-jump-game-v](https://github.com/prathameshhire/LeetCode/tree/main/1340-jump-game-v/) | Hard |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/prathameshhire/LeetCode/tree/main/1365-how-many-numbers-are-smaller-than-the-current-number/) | Easy |
 | [1441-build-an-array-with-stack-operations](https://github.com/prathameshhire/LeetCode/tree/main/1441-build-an-array-with-stack-operations/) | Medium |
 | [1470-shuffle-the-array](https://github.com/prathameshhire/LeetCode/tree/main/1470-shuffle-the-array/) | Easy |
@@ -186,6 +187,7 @@
 | [0834-sum-of-distances-in-tree](https://github.com/prathameshhire/LeetCode/tree/main/0834-sum-of-distances-in-tree/) | Hard |
 | [0931-minimum-falling-path-sum](https://github.com/prathameshhire/LeetCode/tree/main/0931-minimum-falling-path-sum/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/prathameshhire/LeetCode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
+| [1340-jump-game-v](https://github.com/prathameshhire/LeetCode/tree/main/1340-jump-game-v/) | Hard |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/prathameshhire/LeetCode/tree/main/1493-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
 | [2439-minimize-maximum-of-array](https://github.com/prathameshhire/LeetCode/tree/main/2439-minimize-maximum-of-array/) | Medium |
 | [2560-house-robber-iv](https://github.com/prathameshhire/LeetCode/tree/main/2560-house-robber-iv/) | Medium |
@@ -277,6 +279,7 @@
 | [0826-most-profit-assigning-work](https://github.com/prathameshhire/LeetCode/tree/main/0826-most-profit-assigning-work/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/prathameshhire/LeetCode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/prathameshhire/LeetCode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
+| [1340-jump-game-v](https://github.com/prathameshhire/LeetCode/tree/main/1340-jump-game-v/) | Hard |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/prathameshhire/LeetCode/tree/main/1365-how-many-numbers-are-smaller-than-the-current-number/) | Easy |
 | [1552-magnetic-force-between-two-balls](https://github.com/prathameshhire/LeetCode/tree/main/1552-magnetic-force-between-two-balls/) | Medium |
 | [1608-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/prathameshhire/LeetCode/tree/main/1608-special-array-with-x-elements-greater-than-or-equal-x/) | Easy |
