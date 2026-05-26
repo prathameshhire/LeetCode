@@ -120,6 +120,7 @@
 | [2024-maximize-the-confusion-of-an-exam](https://github.com/prathameshhire/LeetCode/tree/main/2024-maximize-the-confusion-of-an-exam/) | Medium |
 | [2953-count-complete-substrings](https://github.com/prathameshhire/LeetCode/tree/main/2953-count-complete-substrings/) | Hard |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/prathameshhire/LeetCode/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
+| [3120-count-the-number-of-special-characters-i](https://github.com/prathameshhire/LeetCode/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -158,6 +159,7 @@
 | [2953-count-complete-substrings](https://github.com/prathameshhire/LeetCode/tree/main/2953-count-complete-substrings/) | Hard |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/prathameshhire/LeetCode/tree/main/2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/prathameshhire/LeetCode/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
+| [3120-count-the-number-of-special-characters-i](https://github.com/prathameshhire/LeetCode/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
