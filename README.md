@@ -96,6 +96,7 @@
 | [2962-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/prathameshhire/LeetCode/tree/main/2962-count-subarrays-where-max-element-appears-at-least-k-times/) | Medium |
 | [2968-apply-operations-to-maximize-frequency-score](https://github.com/prathameshhire/LeetCode/tree/main/2968-apply-operations-to-maximize-frequency-score/) | Hard |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/prathameshhire/LeetCode/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
+| [3093-longest-common-suffix-queries](https://github.com/prathameshhire/LeetCode/tree/main/3093-longest-common-suffix-queries/) | Hard |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/prathameshhire/LeetCode/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/prathameshhire/LeetCode/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
 | [3449-maximize-the-minimum-game-score](https://github.com/prathameshhire/LeetCode/tree/main/3449-maximize-the-minimum-game-score/) | Hard |
@@ -121,6 +122,7 @@
 | [2024-maximize-the-confusion-of-an-exam](https://github.com/prathameshhire/LeetCode/tree/main/2024-maximize-the-confusion-of-an-exam/) | Medium |
 | [2953-count-complete-substrings](https://github.com/prathameshhire/LeetCode/tree/main/2953-count-complete-substrings/) | Hard |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/prathameshhire/LeetCode/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
+| [3093-longest-common-suffix-queries](https://github.com/prathameshhire/LeetCode/tree/main/3093-longest-common-suffix-queries/) | Hard |
 | [3120-count-the-number-of-special-characters-i](https://github.com/prathameshhire/LeetCode/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/prathameshhire/LeetCode/tree/main/3121-count-the-number-of-special-characters-ii/) | Medium |
 ## Backtracking
@@ -522,4 +524,5 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/prathameshhire/LeetCode/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
+| [3093-longest-common-suffix-queries](https://github.com/prathameshhire/LeetCode/tree/main/3093-longest-common-suffix-queries/) | Hard |
 <!---LeetCode Topics End-->
