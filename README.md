@@ -97,6 +97,7 @@
 | [2968-apply-operations-to-maximize-frequency-score](https://github.com/prathameshhire/LeetCode/tree/main/2968-apply-operations-to-maximize-frequency-score/) | Hard |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/prathameshhire/LeetCode/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/prathameshhire/LeetCode/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
+| [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/prathameshhire/LeetCode/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
 | [3449-maximize-the-minimum-game-score](https://github.com/prathameshhire/LeetCode/tree/main/3449-maximize-the-minimum-game-score/) | Hard |
 | [3453-separate-squares-i](https://github.com/prathameshhire/LeetCode/tree/main/3453-separate-squares-i/) | Medium |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/prathameshhire/LeetCode/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
@@ -177,6 +178,7 @@
 | [0788-rotated-digits](https://github.com/prathameshhire/LeetCode/tree/main/0788-rotated-digits/) | Medium |
 | [1903-largest-odd-number-in-string](https://github.com/prathameshhire/LeetCode/tree/main/1903-largest-odd-number-in-string/) | Easy |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/prathameshhire/LeetCode/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
+| [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/prathameshhire/LeetCode/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
