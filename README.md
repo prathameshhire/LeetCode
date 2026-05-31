@@ -74,6 +74,7 @@
 | [2071-maximum-number-of-tasks-you-can-assign](https://github.com/prathameshhire/LeetCode/tree/main/2071-maximum-number-of-tasks-you-can-assign/) | Hard |
 | [2090-k-radius-subarray-averages](https://github.com/prathameshhire/LeetCode/tree/main/2090-k-radius-subarray-averages/) | Medium |
 | [2106-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/prathameshhire/LeetCode/tree/main/2106-maximum-fruits-harvested-after-at-most-k-steps/) | Hard |
+| [2126-destroying-asteroids](https://github.com/prathameshhire/LeetCode/tree/main/2126-destroying-asteroids/) | Medium |
 | [2141-maximum-running-time-of-n-computers](https://github.com/prathameshhire/LeetCode/tree/main/2141-maximum-running-time-of-n-computers/) | Hard |
 | [2187-minimum-time-to-complete-trips](https://github.com/prathameshhire/LeetCode/tree/main/2187-minimum-time-to-complete-trips/) | Medium |
 | [2226-maximum-candies-allocated-to-k-children](https://github.com/prathameshhire/LeetCode/tree/main/2226-maximum-candies-allocated-to-k-children/) | Medium |
@@ -298,6 +299,7 @@
 | [1838-frequency-of-the-most-frequent-element](https://github.com/prathameshhire/LeetCode/tree/main/1838-frequency-of-the-most-frequent-element/) | Medium |
 | [2070-most-beautiful-item-for-each-query](https://github.com/prathameshhire/LeetCode/tree/main/2070-most-beautiful-item-for-each-query/) | Medium |
 | [2071-maximum-number-of-tasks-you-can-assign](https://github.com/prathameshhire/LeetCode/tree/main/2071-maximum-number-of-tasks-you-can-assign/) | Hard |
+| [2126-destroying-asteroids](https://github.com/prathameshhire/LeetCode/tree/main/2126-destroying-asteroids/) | Medium |
 | [2141-maximum-running-time-of-n-computers](https://github.com/prathameshhire/LeetCode/tree/main/2141-maximum-running-time-of-n-computers/) | Hard |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/prathameshhire/LeetCode/tree/main/2251-number-of-flowers-in-full-bloom/) | Hard |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/prathameshhire/LeetCode/tree/main/2300-successful-pairs-of-spells-and-potions/) | Medium |
@@ -386,6 +388,7 @@
 | [1903-largest-odd-number-in-string](https://github.com/prathameshhire/LeetCode/tree/main/1903-largest-odd-number-in-string/) | Easy |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/prathameshhire/LeetCode/tree/main/2064-minimized-maximum-of-products-distributed-to-any-store/) | Medium |
 | [2071-maximum-number-of-tasks-you-can-assign](https://github.com/prathameshhire/LeetCode/tree/main/2071-maximum-number-of-tasks-you-can-assign/) | Hard |
+| [2126-destroying-asteroids](https://github.com/prathameshhire/LeetCode/tree/main/2126-destroying-asteroids/) | Medium |
 | [2141-maximum-running-time-of-n-computers](https://github.com/prathameshhire/LeetCode/tree/main/2141-maximum-running-time-of-n-computers/) | Hard |
 | [2439-minimize-maximum-of-array](https://github.com/prathameshhire/LeetCode/tree/main/2439-minimize-maximum-of-array/) | Medium |
 | [2448-minimum-cost-to-make-array-equal](https://github.com/prathameshhire/LeetCode/tree/main/2448-minimum-cost-to-make-array-equal/) | Hard |
