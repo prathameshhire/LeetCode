@@ -9,7 +9,7 @@ public:
 
     pair<ll, ll> solve(int curr, int prevPrev, int prev, bool isLimitedWithActualNumber, bool isLeadingZero) {
         if (curr == n) {
-            return {1, 0}; // no more score can be generated and we found one last number
+            return {1, 0}; 
         }
 
         if (!isLimitedWithActualNumber && !isLeadingZero && prevPrev >= 0 && prev >= 0) {
@@ -57,7 +57,7 @@ public:
     }
 
     ll func(ll num) {
-        if (num < 100) { // we need at least 3 digits (0 to 99 are invalid)
+        if (num < 100) { 
             return 0;
         }
 
