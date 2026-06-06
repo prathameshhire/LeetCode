@@ -88,6 +88,7 @@
 | [2553-separate-the-digits-in-an-array](https://github.com/prathameshhire/LeetCode/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
 | [2560-house-robber-iv](https://github.com/prathameshhire/LeetCode/tree/main/2560-house-robber-iv/) | Medium |
 | [2563-count-the-number-of-fair-pairs](https://github.com/prathameshhire/LeetCode/tree/main/2563-count-the-number-of-fair-pairs/) | Medium |
+| [2574-left-and-right-sum-differences](https://github.com/prathameshhire/LeetCode/tree/main/2574-left-and-right-sum-differences/) | Easy |
 | [2594-minimum-time-to-repair-cars](https://github.com/prathameshhire/LeetCode/tree/main/2594-minimum-time-to-repair-cars/) | Medium |
 | [2616-minimize-the-maximum-difference-of-pairs](https://github.com/prathameshhire/LeetCode/tree/main/2616-minimize-the-maximum-difference-of-pairs/) | Medium |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/prathameshhire/LeetCode/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
@@ -428,6 +429,7 @@
 | [2251-number-of-flowers-in-full-bloom](https://github.com/prathameshhire/LeetCode/tree/main/2251-number-of-flowers-in-full-bloom/) | Hard |
 | [2439-minimize-maximum-of-array](https://github.com/prathameshhire/LeetCode/tree/main/2439-minimize-maximum-of-array/) | Medium |
 | [2448-minimum-cost-to-make-array-equal](https://github.com/prathameshhire/LeetCode/tree/main/2448-minimum-cost-to-make-array-equal/) | Hard |
+| [2574-left-and-right-sum-differences](https://github.com/prathameshhire/LeetCode/tree/main/2574-left-and-right-sum-differences/) | Easy |
 | [2968-apply-operations-to-maximize-frequency-score](https://github.com/prathameshhire/LeetCode/tree/main/2968-apply-operations-to-maximize-frequency-score/) | Hard |
 ## Ordered Set
 | Problem Name | Difficulty |
