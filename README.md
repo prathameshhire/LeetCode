@@ -78,6 +78,7 @@
 | [2141-maximum-running-time-of-n-computers](https://github.com/prathameshhire/LeetCode/tree/main/2141-maximum-running-time-of-n-computers/) | Hard |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/prathameshhire/LeetCode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2187-minimum-time-to-complete-trips](https://github.com/prathameshhire/LeetCode/tree/main/2187-minimum-time-to-complete-trips/) | Medium |
+| [2196-create-binary-tree-from-descriptions](https://github.com/prathameshhire/LeetCode/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2226-maximum-candies-allocated-to-k-children](https://github.com/prathameshhire/LeetCode/tree/main/2226-maximum-candies-allocated-to-k-children/) | Medium |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/prathameshhire/LeetCode/tree/main/2251-number-of-flowers-in-full-bloom/) | Hard |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/prathameshhire/LeetCode/tree/main/2300-successful-pairs-of-spells-and-potions/) | Medium |
@@ -162,6 +163,7 @@
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/prathameshhire/LeetCode/tree/main/1365-how-many-numbers-are-smaller-than-the-current-number/) | Easy |
 | [1488-avoid-flood-in-the-city](https://github.com/prathameshhire/LeetCode/tree/main/1488-avoid-flood-in-the-city/) | Medium |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/prathameshhire/LeetCode/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
+| [2196-create-binary-tree-from-descriptions](https://github.com/prathameshhire/LeetCode/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/prathameshhire/LeetCode/tree/main/2251-number-of-flowers-in-full-bloom/) | Hard |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/prathameshhire/LeetCode/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
 | [2784-check-if-array-is-good](https://github.com/prathameshhire/LeetCode/tree/main/2784-check-if-array-is-good/) | Easy |
@@ -373,6 +375,7 @@
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/prathameshhire/LeetCode/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0834-sum-of-distances-in-tree](https://github.com/prathameshhire/LeetCode/tree/main/0834-sum-of-distances-in-tree/) | Hard |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/prathameshhire/LeetCode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
+| [2196-create-binary-tree-from-descriptions](https://github.com/prathameshhire/LeetCode/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 ## Interactive
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -496,6 +499,7 @@
 | ------- | ------- |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/prathameshhire/LeetCode/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/prathameshhire/LeetCode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
+| [2196-create-binary-tree-from-descriptions](https://github.com/prathameshhire/LeetCode/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
