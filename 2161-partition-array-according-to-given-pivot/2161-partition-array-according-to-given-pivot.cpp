@@ -13,9 +13,9 @@ public:
                 countequal++;
         }
 
-        int i = 0; //less than pivot
-        int j = countless; //equal to pivot
-        int k = countless + countequal; //more than pivot
+        int i = 0;
+        int j = countless;
+        int k = countless + countequal;
         vector<int> result(n);
 
         for(int &num : nums) {
