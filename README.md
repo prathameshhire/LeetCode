@@ -110,6 +110,7 @@
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/prathameshhire/LeetCode/tree/main/3635-earliest-finish-time-for-land-and-water-rides-ii/) | Medium |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/prathameshhire/LeetCode/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
 | [3660-jump-game-ix](https://github.com/prathameshhire/LeetCode/tree/main/3660-jump-game-ix/) | Medium |
+| [3689-maximum-total-subarray-value-i](https://github.com/prathameshhire/LeetCode/tree/main/3689-maximum-total-subarray-value-i/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -419,6 +420,7 @@
 | [3449-maximize-the-minimum-game-score](https://github.com/prathameshhire/LeetCode/tree/main/3449-maximize-the-minimum-game-score/) | Hard |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/prathameshhire/LeetCode/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/prathameshhire/LeetCode/tree/main/3635-earliest-finish-time-for-land-and-water-rides-ii/) | Medium |
+| [3689-maximum-total-subarray-value-i](https://github.com/prathameshhire/LeetCode/tree/main/3689-maximum-total-subarray-value-i/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
