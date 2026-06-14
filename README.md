@@ -402,6 +402,7 @@
 | [0826-most-profit-assigning-work](https://github.com/prathameshhire/LeetCode/tree/main/0826-most-profit-assigning-work/) | Medium |
 | [1861-rotating-the-box](https://github.com/prathameshhire/LeetCode/tree/main/1861-rotating-the-box/) | Medium |
 | [2071-maximum-number-of-tasks-you-can-assign](https://github.com/prathameshhire/LeetCode/tree/main/2071-maximum-number-of-tasks-you-can-assign/) | Hard |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/prathameshhire/LeetCode/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 | [2161-partition-array-according-to-given-pivot](https://github.com/prathameshhire/LeetCode/tree/main/2161-partition-array-according-to-given-pivot/) | Medium |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/prathameshhire/LeetCode/tree/main/2300-successful-pairs-of-spells-and-potions/) | Medium |
 | [2563-count-the-number-of-fair-pairs](https://github.com/prathameshhire/LeetCode/tree/main/2563-count-the-number-of-fair-pairs/) | Medium |
@@ -531,6 +532,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/prathameshhire/LeetCode/tree/main/0083-remove-duplicates-from-sorted-list/) | Easy |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/prathameshhire/LeetCode/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 ## Number Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -554,6 +556,7 @@
 | [1441-build-an-array-with-stack-operations](https://github.com/prathameshhire/LeetCode/tree/main/1441-build-an-array-with-stack-operations/) | Medium |
 | [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/prathameshhire/LeetCode/tree/main/1475-final-prices-with-a-special-discount-in-a-shop/) | Easy |
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/prathameshhire/LeetCode/tree/main/1700-number-of-students-unable-to-eat-lunch/) | Easy |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/prathameshhire/LeetCode/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
