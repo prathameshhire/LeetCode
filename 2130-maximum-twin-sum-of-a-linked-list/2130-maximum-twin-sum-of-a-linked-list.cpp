@@ -12,11 +12,10 @@ class Solution {
 public:
     int pairSum(ListNode* head) {
         vector<int> list;
-        while(head->next != NULL) {
+        while(head != NULL) {
             list.push_back(head->val);
             head = head->next;
         }
-        list.push_back(head->val);
         int i = 0, j = list.size()-1;
         int result = INT_MIN;
         while (i < j) {
