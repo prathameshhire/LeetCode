@@ -11,8 +11,7 @@
 class Solution {
 public:
     int pairSum(ListNode* head) {
-        ListNode* mid = NULL;
-        
+        ListNode* mid = NULL;    
         ListNode* slow = head;
         ListNode* fast = head;
         
@@ -21,8 +20,6 @@ public:
             fast = fast->next->next;
         }
         mid = slow;
-        
-        //Reversing Part
         ListNode* nextNode = NULL;
         ListNode* prev = NULL;
         while(mid) {
@@ -31,16 +28,13 @@ public:
             prev = mid;
             mid = nextNode;
         }
-        //Reversing Part
-        
         ListNode* curr = head;
         int result = 0;
         while(prev) {
             result = max(result, curr->val + prev->val);
             curr = curr->next;
             prev = prev->next;
-        }
-        
+        }       
         return result;
         
     }
