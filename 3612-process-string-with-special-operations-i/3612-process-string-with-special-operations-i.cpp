@@ -2,18 +2,13 @@ class Solution {
 public:
     string processStr(string s) {
         string result = "";
-        for (auto it : s) {
-            if (it == '*') {
-                if (result.size()) {
-                    result.pop_back();
-                }
-            } else if (it == '#') {
-                result += result;
-            } else if (it == '%') {
-                result = string(result.rbegin(), result.rend());
-            } else {
-                result += it;
+        for(char &ch : s) {
+            if(ch == '*') {
+                if(result.length() > 0) result.pop_back();
             }
+            else if (ch == '#') result += result;
+            else if (ch == '%') reverse(result.begin(), result.end());
+            else result += ch;
         }
         return result;
     }
