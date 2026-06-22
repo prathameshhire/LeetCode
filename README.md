@@ -124,6 +124,7 @@
 | [0433-minimum-genetic-mutation](https://github.com/prathameshhire/LeetCode/tree/main/0433-minimum-genetic-mutation/) | Medium |
 | [0438-find-all-anagrams-in-a-string](https://github.com/prathameshhire/LeetCode/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 | [0796-rotate-string](https://github.com/prathameshhire/LeetCode/tree/main/0796-rotate-string/) | Easy |
+| [1189-maximum-number-of-balloons](https://github.com/prathameshhire/LeetCode/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1208-get-equal-substrings-within-budget](https://github.com/prathameshhire/LeetCode/tree/main/1208-get-equal-substrings-within-budget/) | Medium |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/prathameshhire/LeetCode/tree/main/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/prathameshhire/LeetCode/tree/main/1456-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
@@ -167,6 +168,7 @@
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/prathameshhire/LeetCode/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/prathameshhire/LeetCode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [0992-subarrays-with-k-different-integers](https://github.com/prathameshhire/LeetCode/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
+| [1189-maximum-number-of-balloons](https://github.com/prathameshhire/LeetCode/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/prathameshhire/LeetCode/tree/main/1365-how-many-numbers-are-smaller-than-the-current-number/) | Easy |
 | [1488-avoid-flood-in-the-city](https://github.com/prathameshhire/LeetCode/tree/main/1488-avoid-flood-in-the-city/) | Medium |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/prathameshhire/LeetCode/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
@@ -551,6 +553,7 @@
 | ------- | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/prathameshhire/LeetCode/tree/main/0387-first-unique-character-in-a-string/) | Easy |
 | [0992-subarrays-with-k-different-integers](https://github.com/prathameshhire/LeetCode/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
+| [1189-maximum-number-of-balloons](https://github.com/prathameshhire/LeetCode/tree/main/1189-maximum-number-of-balloons/) | Easy |
 ## Counting Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
